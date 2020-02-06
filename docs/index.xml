@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Abouttt</title>
+      <title>About me</title>
       <link>https://filippo82.github.io/website_new_hugo/about/</link>
       <pubDate>Thu, 06 Feb 2020 01:09:59 +0100</pubDate>
       
       <guid>https://filippo82.github.io/website_new_hugo/about/</guid>
-      <description></description>
+      <description>Summary I have 10 years of experience in computational and theoretical Geophysics. I am passionate about data science, education, and teaching. Currently, I am a researcher in the Exploration and Environmental Geophysics group at ETH in Zürich. I co-supervise PhD students and MSc students, and I taught a BSc class on geophysical methods. In my spare time, I run, bike, cook, write a book, and update my personal website.</description>
     </item>
     
     <item>
@@ -26,7 +26,8 @@
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
       
       <guid>https://filippo82.github.io/website_new_hugo/posts/prova/</guid>
-      <description>Sto tornando merde!</description>
+      <description>Sto tornando merde!
+$$\partial x$$</description>
     </item>
     
   </channel>
