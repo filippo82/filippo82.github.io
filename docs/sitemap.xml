@@ -3,15 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://filippo82.github.io/website_new_hugo/categories/</loc>
+    <loc>https://filippo82.github.io/website_new_hugo/about/</loc>
+    <lastmod>2020-02-06T01:09:59+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://filippo82.github.io/website_new_hugo/</loc>
+    <lastmod>2020-02-06T01:09:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/posts/</loc>
+    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/posts/prova/</loc>
+    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/prova/</loc>
+    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://filippo82.github.io/website_new_hugo/tags/</loc>
+    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/test/</loc>
+    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/categories/</loc>
   </url>
   
 </urlset>
