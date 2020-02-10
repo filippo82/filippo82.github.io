@@ -1,9 +1,10 @@
-+++ 
++++
 draft = true
 date = {{ .Date }}
+updated = {{ .Date }}
 title = ""
 description = ""
-slug = "" 
+slug = ""
 tags = []
 categories = []
 externalLink = ""
