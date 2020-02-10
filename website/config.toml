@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-publishDir = "docs"
+publishDir = "../docs"
 
 paginate = 20
 canonifyurls = false
@@ -20,7 +20,7 @@ disqusShortname = "yourdiscussshortname"
     info = "Rocket ship builder"
     description = "Filippo B's personal website"
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    avatarurl = "images/filippo_square.png"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
