@@ -5,6 +5,25 @@
     <link>https://filippo82.github.io/website_new_hugo/categories/</link>
     <description>Recent content in Categories on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://filippo82.github.io/website_new_hugo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://filippo82.github.io/website_new_hugo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://filippo82.github.io/website_new_hugo/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://filippo82.github.io/website_new_hugo/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://filippo82.github.io/website_new_hugo/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://filippo82.github.io/website_new_hugo/categories/golang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

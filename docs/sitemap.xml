@@ -8,12 +8,22 @@
   </url>
   
   <url>
+    <loc>https://filippo82.github.io/website_new_hugo/series/flask/</loc>
+    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://filippo82.github.io/website_new_hugo/projects/flask/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://filippo82.github.io/website_new_hugo/projects/</loc>
+    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/series/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url>
   
@@ -49,6 +59,52 @@
   
   <url>
     <loc>https://filippo82.github.io/website_new_hugo/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/series/getting-started/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/series/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
