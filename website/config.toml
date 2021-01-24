@@ -15,6 +15,11 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
 [params]
     author = "Filippo B"
     info = "Rocket ship builder"
@@ -30,31 +35,30 @@ disqusShortname = "yourdiscussshortname"
     hidecredits = false
     hidecopyright = false
 
+    since = 2019
+
     rtl = false
 
     math = true
     custom_css = ["css/custom.css"]
 
+    enableTwemoji = true
+
 # Social links
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
-    weight = 1
-    url = "https://www.linkedin.com/in/filippobroggini/"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 2
+    weight = 1
     url = "https://github.com/filippo82/"
 [[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 3
-    url = "https://gitlab.com/filippo82/"
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/filippobroggini/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 4
+    weight = 3
     url = "https://twitter.com/olgias/"
 
 # Menu links

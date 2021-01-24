@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://filippo82.github.io/website_new_hugo/about/</loc>
-    <lastmod>2020-02-06T01:09:59+01:00</lastmod>
+    <loc>https://filippo82.github.io/website_new_hugo/</loc>
+    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://filippo82.github.io/website_new_hugo/</loc>
+    <loc>https://filippo82.github.io/website_new_hugo/projects/flask/</loc>
+    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/projects/</loc>
+    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://filippo82.github.io/website_new_hugo/about/</loc>
     <lastmod>2020-02-06T01:09:59+01:00</lastmod>
   </url>
   
