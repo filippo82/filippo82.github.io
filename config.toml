@@ -32,6 +32,9 @@ disqusShortname = "yourdiscussshortname"
 
     footercontent = ""
 
+    colorscheme = "dark"
+    hidecolorschemetoggle = false
+
     hidecredits = false
     hidecopyright = false
 
@@ -40,7 +43,7 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+    # custom_css = ["css/custom.css"]
 
     enableTwemoji = true
 
