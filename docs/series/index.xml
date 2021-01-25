@@ -8,29 +8,11 @@
     <language>en</language>
     <lastBuildDate>Mon, 10 Feb 2020 20:19:33 +0100</lastBuildDate><atom:link href="https://filippo82.github.io/website_new_hugo/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Flask</title>
-      <link>https://filippo82.github.io/website_new_hugo/series/flask/</link>
+      <title>FastAPI</title>
+      <link>https://filippo82.github.io/website_new_hugo/series/fastapi/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/website_new_hugo/series/flask/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://filippo82.github.io/website_new_hugo/series/getting-started/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://filippo82.github.io/website_new_hugo/series/getting-started/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://filippo82.github.io/website_new_hugo/series/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://filippo82.github.io/website_new_hugo/series/hugo/</guid>
+      <guid>https://filippo82.github.io/website_new_hugo/series/fastapi/</guid>
       <description></description>
     </item>
     

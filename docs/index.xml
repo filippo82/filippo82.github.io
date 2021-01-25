@@ -8,12 +8,12 @@
     <language>en</language>
     <lastBuildDate>Mon, 10 Feb 2020 20:19:33 +0100</lastBuildDate><atom:link href="https://filippo82.github.io/website_new_hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Flask</title>
-      <link>https://filippo82.github.io/website_new_hugo/projects/flask/</link>
+      <title>FastAPI Hello World</title>
+      <link>https://filippo82.github.io/website_new_hugo/projects/fastapi_hello_world/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/website_new_hugo/projects/flask/</guid>
-      <description>Hello flask!</description>
+      <guid>https://filippo82.github.io/website_new_hugo/projects/fastapi_hello_world/</guid>
+      <description>Hello FastAPI!</description>
     </item>
     
     <item>
@@ -26,27 +26,13 @@
     </item>
     
     <item>
-      <title>Primo post!</title>
-      <link>https://filippo82.github.io/website_new_hugo/posts/prova/</link>
+      <title>First post on new website!</title>
+      <link>https://filippo82.github.io/website_new_hugo/posts/first_post/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/website_new_hugo/posts/prova/</guid>
-      <description>Sto tornando merde!
-$$\partial x$$</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://filippo82.github.io/website_new_hugo/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://filippo82.github.io/website_new_hugo/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://filippo82.github.io/website_new_hugo/posts/first_post/</guid>
+      <description>Hi folks, I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
+Stay tuned 📻🤩</description>
     </item>
     
   </channel>
