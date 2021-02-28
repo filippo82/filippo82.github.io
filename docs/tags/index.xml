@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Filippo B</title>
-    <link>https://filippo82.github.io/tags/</link>
+    <link>https://www.filippobroggini.com/tags/</link>
     <description>Recent content in Tags on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://filippo82.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo</title>
-      <link>https://filippo82.github.io/tags/hugo/</link>
+      <link>https://www.filippobroggini.com/tags/hugo/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/tags/hugo/</guid>
+      <guid>https://www.filippobroggini.com/tags/hugo/</guid>
       <description></description>
     </item>
     

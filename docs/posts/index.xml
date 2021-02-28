@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Filippo B</title>
-    <link>https://filippo82.github.io/posts/</link>
+    <link>https://www.filippobroggini.com/posts/</link>
     <description>Recent content in Posts on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://filippo82.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First post on new website!</title>
-      <link>https://filippo82.github.io/posts/first_post/</link>
+      <link>https://www.filippobroggini.com/posts/first_post/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/posts/first_post/</guid>
+      <guid>https://www.filippobroggini.com/posts/first_post/</guid>
       <description>Hi folks, I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
 Stay tuned 📻🤩</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Filippo B</title>
-    <link>https://filippo82.github.io/series/</link>
+    <link>https://www.filippobroggini.com/series/</link>
     <description>Recent content in Series on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Feb 2020 20:19:33 +0100</lastBuildDate><atom:link href="https://filippo82.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Feb 2020 20:19:33 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FastAPI</title>
-      <link>https://filippo82.github.io/series/fastapi/</link>
+      <link>https://www.filippobroggini.com/series/fastapi/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
       
-      <guid>https://filippo82.github.io/series/fastapi/</guid>
+      <guid>https://www.filippobroggini.com/series/fastapi/</guid>
       <description></description>
     </item>
     
