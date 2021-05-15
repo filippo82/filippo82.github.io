@@ -10,7 +10,8 @@ externalLink = ""
 series = []
 +++
 
-Hi folks, I've finally had time to work on my personal website.
+<span class="firstcharacter">H</span>owdy folks!
+I've finally had time to work on my personal website.
 I'll follow up soon with a post documenting my journey with Hugo.
 
 Stay tuned 📻🤩

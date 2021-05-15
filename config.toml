@@ -20,6 +20,11 @@ disqusShortname = "yourdiscussshortname"
     series = "series"
     tag = "tags"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     author = "Filippo B"
     info = "Rocket ship builder"
@@ -32,7 +37,7 @@ disqusShortname = "yourdiscussshortname"
 
     footercontent = ""
 
-    colorscheme = "dark"
+    colorscheme = "light"
     hidecolorschemetoggle = false
 
     hidecredits = false
@@ -43,7 +48,7 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    # custom_css = ["css/custom.css"]
+    customCSS = ["css/custom.css"]
 
     enableTwemoji = true
 
