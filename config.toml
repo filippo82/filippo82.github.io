@@ -9,9 +9,11 @@ publishDir = "docs"
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+enableEmoji = true
 
 disqusShortname = "yourdiscussshortname"
 
@@ -27,7 +29,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Filippo B"
-    info = "Rocket ship builder"
+    info = ["Rocket ship builder", "Father"]
     description = "Filippo B's personal website"
     keywords = "blog,developer,personal"
     avatarurl = "images/filippo_square.png"
@@ -37,11 +39,11 @@ disqusShortname = "yourdiscussshortname"
 
     footercontent = ""
 
-    colorscheme = "light"
-    hidecolorschemetoggle = false
+    colorScheme = "auto"
+    hideColorSchemeToggle = false
 
-    hidecredits = false
-    hidecopyright = false
+    hideCredits = false
+    hideCopyright = false
 
     since = 2019
 
