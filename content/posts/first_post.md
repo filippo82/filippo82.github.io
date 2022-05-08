@@ -14,4 +14,4 @@ series = []
 I've finally had time to work on my personal website.
 I'll follow up soon with a post documenting my journey with Hugo.
 
-Stay tuned 📻🤩
+Stay tuned 🤩
