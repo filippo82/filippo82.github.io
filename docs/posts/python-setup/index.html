@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-  First post on new website! · Filippo B
+  How to set up python on your computer · Filippo B
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +12,41 @@
 
 
 <meta name="author" content="Filippo B">
-<meta name="description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩">
+<meta name="description" content="Howdy folks!
+I recommend pyenv
+pyenv  Link to heading   To install it, we use brew:
+brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
+Usage  Link to heading   First, we list all Python versions available to pyenv:">
 <meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First post on new website!"/>
-<meta name="twitter:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩"/>
+<meta name="twitter:title" content="How to set up python on your computer"/>
+<meta name="twitter:description" content="Howdy folks!
+I recommend pyenv
+pyenv  Link to heading   To install it, we use brew:
+brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
+Usage  Link to heading   First, we list all Python versions available to pyenv:"/>
 
-<meta property="og:title" content="First post on new website!" />
-<meta property="og:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩" />
+<meta property="og:title" content="How to set up python on your computer" />
+<meta property="og:description" content="Howdy folks!
+I recommend pyenv
+pyenv  Link to heading   To install it, we use brew:
+brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
+Usage  Link to heading   First, we list all Python versions available to pyenv:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/posts/first_post/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-02-05T23:17:23+01:00" />
-<meta property="article:modified_time" content="2020-02-05T23:17:23+01:00" />
+<meta property="og:url" content="https://www.filippobroggini.com/posts/python-setup/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-05T23:18:20+02:00" />
+<meta property="article:modified_time" content="2022-09-05T23:18:20+02:00" />
+<meta property="og:see_also" content="https://www.filippobroggini.com/posts/macos-setup/" /><meta property="og:see_also" content="https://www.filippobroggini.com/posts/dotfiles-setup/" />
 
 
 
 
 
-<link rel="canonical" href="https://www.filippobroggini.com/posts/first_post/">
+<link rel="canonical" href="https://www.filippobroggini.com/posts/python-setup/">
 
 
 <link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -141,8 +154,8 @@ Stay tuned 🤩" />
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://www.filippobroggini.com/posts/first_post/">
-              First post on new website!
+            <a class="title-link" href="https://www.filippobroggini.com/posts/python-setup/">
+              How to set up python on your computer
             </a>
           </h1>
         </div>
@@ -150,8 +163,8 @@ Stay tuned 🤩" />
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime="2020-02-05T23:17:23&#43;01:00">
-                February 5, 2020
+              <time datetime="2022-09-05T23:18:20&#43;02:00">
+                September 5, 2022
               </time>
             </span>
             <span class="reading-time">
@@ -159,12 +172,15 @@ Stay tuned 🤩" />
               One-minute read
             </span>
           </div>
-          
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="https://www.filippobroggini.com/authors/filippo/">Filippo</a></div>
+
           
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="https://www.filippobroggini.com/tags/hugo/">hugo</a>
+      <a href="https://www.filippobroggini.com/tags/development/">development</a>
     </span></div>
 
         </div>
@@ -172,16 +188,76 @@ Stay tuned 🤩" />
 
       <div>
         
-        <p><span class="firstcharacter">H</span>owdy folks!
-I&rsquo;ve finally had time to work on my personal website.
-I&rsquo;ll follow up soon with a post documenting my journey with Hugo.</p>
-<p>Stay tuned 🤩</p>
-
+        <p><span class="firstcharacter">H</span>owdy folks!</p>
+<p>I recommend <a href="https://github.com/pyenv/pyenv">pyenv</a></p>
+<h1 id="pyenv">
+  <code>pyenv</code>
+  <a class="heading-link" href="#pyenv">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>To install it, we use <code>brew</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>brew update
+</span></span><span style="display:flex;"><span>brew install pyenv pyenv-virtualenv
+</span></span></code></pre></div><p>Then, we append these lines at the end of the <code>~/.zshrc</code> file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="font-style:italic"># pyenv config</span>
+</span></span><span style="display:flex;"><span>export PYENV_ROOT=<span style="font-style:italic">&#34;</span>$HOME<span style="font-style:italic">/.pyenv&#34;</span>
+</span></span><span style="display:flex;"><span>command -v pyenv &gt;/dev/null || export PATH=<span style="font-style:italic">&#34;</span>$PYENV_ROOT<span style="font-style:italic">/bin:</span>$PATH<span style="font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>eval <span style="font-style:italic">&#34;</span><span style="font-weight:bold">$(</span>pyenv init -<span style="font-weight:bold">)</span><span style="font-style:italic">&#34;</span>
+</span></span><span style="display:flex;"><span>eval <span style="font-style:italic">&#34;</span><span style="font-weight:bold">$(</span>pyenv virtualenv-init -<span style="font-weight:bold">)</span><span style="font-style:italic">&#34;</span>
+</span></span></code></pre></div><p><a href="https://github.com/pyenv/pyenv-virtualenv">pyenv-virtualenv</a></p>
+<h2 id="usage">
+  Usage
+  <a class="heading-link" href="#usage">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>First, we list all Python versions available to <code>pyenv</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ pyenv versions
+</span></span></code></pre></div>
       </div>
 
 
       <footer>
         
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3 id="see-also-in-development">
+        See also in Development
+        <a class="heading-link" href="#see-also-in-development">
+          <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+          <span class="sr-only">Link to heading</span>
+        </a>
+      </h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="https://www.filippobroggini.com/posts/macos-setup/">How I set up my macOS</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://www.filippobroggini.com/posts/dotfiles-setup/">Dotfiles: they are hidden but we love them!</a>
+            </li>
+          
+        
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
 
 
         <div id="disqus_thread"></div>

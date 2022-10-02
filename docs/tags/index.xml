@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 13:18:20 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://www.filippobroggini.com/tags/development/</link>
+      <pubDate>Sun, 02 Oct 2022 13:18:20 +0200</pubDate>
+      
+      <guid>https://www.filippobroggini.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://www.filippobroggini.com/tags/hugo/</link>
-      <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
+      <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
       
       <guid>https://www.filippobroggini.com/tags/hugo/</guid>
       <description></description>

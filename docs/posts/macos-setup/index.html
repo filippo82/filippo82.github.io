@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-  Hugo 101 · Filippo B
+  How I set up my macOS · Filippo B
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,28 +12,44 @@
 
 
 <meta name="author" content="Filippo B">
-<meta name="description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  ">
+<meta name="description" content="Howdy folks!
+Work in progress!
+Dotfiles  Link to heading   Work in progress!
+ Link to heading   Let&rsquo;s brew!  Link to heading   Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
+First let&rsquo;s install it with this handy command:
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
+brew --version brew install git jq pyenv zsh Oh My ZSH!">
 <meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo 101"/>
-<meta name="twitter:description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  "/>
+<meta name="twitter:title" content="How I set up my macOS"/>
+<meta name="twitter:description" content="Howdy folks!
+Work in progress!
+Dotfiles  Link to heading   Work in progress!
+ Link to heading   Let&rsquo;s brew!  Link to heading   Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
+First let&rsquo;s install it with this handy command:
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
+brew --version brew install git jq pyenv zsh Oh My ZSH!"/>
 
-<meta property="og:title" content="Hugo 101" />
-<meta property="og:description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  " />
+<meta property="og:title" content="How I set up my macOS" />
+<meta property="og:description" content="Howdy folks!
+Work in progress!
+Dotfiles  Link to heading   Work in progress!
+ Link to heading   Let&rsquo;s brew!  Link to heading   Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
+First let&rsquo;s install it with this handy command:
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
+brew --version brew install git jq pyenv zsh Oh My ZSH!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/posts/hugo101/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-01-25T22:09:40+01:00" />
-<meta property="article:modified_time" content="2021-01-25T22:09:40+01:00" />
+<meta property="og:url" content="https://www.filippobroggini.com/posts/macos-setup/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-02T13:18:20+02:00" />
+<meta property="article:modified_time" content="2022-10-02T13:18:20+02:00" />
+<meta property="og:see_also" content="https://www.filippobroggini.com/posts/dotfiles-setup/" /><meta property="og:see_also" content="https://www.filippobroggini.com/posts/python-setup/" />
 
 
 
 
 
-<link rel="canonical" href="https://www.filippobroggini.com/posts/hugo101/">
+<link rel="canonical" href="https://www.filippobroggini.com/posts/macos-setup/">
 
 
 <link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -141,8 +157,8 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://www.filippobroggini.com/posts/hugo101/">
-              Hugo 101
+            <a class="title-link" href="https://www.filippobroggini.com/posts/macos-setup/">
+              How I set up my macOS
             </a>
           </h1>
         </div>
@@ -150,8 +166,8 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime="2021-01-25T22:09:40&#43;01:00">
-                January 25, 2021
+              <time datetime="2022-10-02T13:18:20&#43;02:00">
+                October 2, 2022
               </time>
             </span>
             <span class="reading-time">
@@ -167,7 +183,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="https://www.filippobroggini.com/tags/hugo/">hugo</a>
+      <a href="https://www.filippobroggini.com/tags/development/">development</a>
     </span></div>
 
         </div>
@@ -175,32 +191,91 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
 
       <div>
         
-        <h2 id="create-a-draft-for-a-new-article">
-  Create a draft for a new article
-  <a class="heading-link" href="#create-a-draft-for-a-new-article">
+        <p><span class="firstcharacter">H</span>owdy folks!</p>
+<p>Work in progress!</p>
+<h2 id="dotfiles">
+  Dotfiles
+  <a class="heading-link" href="#dotfiles">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new posts/my-first-post.md
-</span></span></code></pre></div><p>This would be added in <code>/contents/posts</code>.</p>
-<h2 id="resources">
-  Resources
-  <a class="heading-link" href="#resources">
+<p>Work in progress!</p>
+<h2 id="heading">
+  
+  <a class="heading-link" href="#heading">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<ul>
-<li><a href="https://jpdroege.com/blog/hugo-file-organization/">The complete guide to Hugo file structure and code organization</a></li>
-<li><a href="https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/">The Ultimate Guide to Hugo Sections</a></li>
-</ul>
-
+<h2 id="lets-brew">
+  Let&rsquo;s <code>brew</code>!
+  <a class="heading-link" href="#lets-brew">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><a href="https://brew.sh/">Homebrew</a> is the &ldquo;the Missing Package Manager for macOS&rdquo;.</p>
+<p>First let&rsquo;s install it with this handy command:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>/bin/bash -c <span style="font-style:italic">&#34;</span><span style="font-weight:bold">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style="font-weight:bold">)</span><span style="font-style:italic">&#34;</span>
+</span></span></code></pre></div><p>Then you can verify that the <code>brew</code> command line tool is properly installed with</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew --version
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>brew install git jq pyenv zsh
+</span></span></code></pre></div><h2 id="oh-my-zsh">
+  Oh My ZSH!
+  <a class="heading-link" href="#oh-my-zsh">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>From its <a href="https://ohmyz.sh/">website</a>:</p>
+<blockquote>
+<p>Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few things that make you shout&hellip;</p>
+</blockquote>
+<p>First let&rsquo;s install it with this handy command:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sh -c <span style="font-style:italic">&#34;</span><span style="font-weight:bold">$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="font-weight:bold">)</span><span style="font-style:italic">&#34;</span>
+</span></span></code></pre></div>
       </div>
 
 
       <footer>
         
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3 id="see-also-in-development">
+        See also in Development
+        <a class="heading-link" href="#see-also-in-development">
+          <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+          <span class="sr-only">Link to heading</span>
+        </a>
+      </h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="https://www.filippobroggini.com/posts/dotfiles-setup/">Dotfiles: they are hidden but we love them!</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://www.filippobroggini.com/posts/python-setup/">How to set up python on your computer</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
 
 
         <div id="disqus_thread"></div>

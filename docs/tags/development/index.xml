@@ -6,18 +6,45 @@
     <description>Recent content in development on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 13:18:20 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://www.filippobroggini.com/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>How I set up my macOS</title>
+      <link>https://www.filippobroggini.com/posts/macos-setup/</link>
+      <pubDate>Sun, 02 Oct 2022 13:18:20 +0200</pubDate>
       
-      <guid>https://www.filippobroggini.com/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo    Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs    Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:</description>
+      <guid>https://www.filippobroggini.com/posts/macos-setup/</guid>
+      <description>Howdy folks!
+Work in progress!
+Dotfiles  Link to heading   Work in progress!
+ Link to heading   Let&amp;rsquo;s brew!  Link to heading   Homebrew is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.
+First let&amp;rsquo;s install it with this handy command:
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Then you can verify that the brew command line tool is properly installed with
+brew --version brew install git jq pyenv zsh Oh My ZSH!</description>
+    </item>
+    
+    <item>
+      <title>Dotfiles: they are hidden but we love them!</title>
+      <link>https://www.filippobroggini.com/posts/dotfiles-setup/</link>
+      <pubDate>Sat, 01 Oct 2022 23:18:20 +0200</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/dotfiles-setup/</guid>
+      <description>Howdy folks!
+Work in progress!
+This is my-dot-files repo.</description>
+    </item>
+    
+    <item>
+      <title>How to set up python on your computer</title>
+      <link>https://www.filippobroggini.com/posts/python-setup/</link>
+      <pubDate>Mon, 05 Sep 2022 23:18:20 +0200</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/python-setup/</guid>
+      <description>Howdy folks!
+I recommend pyenv
+pyenv  Link to heading   To install it, we use brew:
+brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
+# pyenv config export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; command -v pyenv &amp;gt;/dev/null || export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)&amp;#34; eval &amp;#34;$(pyenv virtualenv-init -)&amp;#34; pyenv-virtualenv
+Usage  Link to heading   First, we list all Python versions available to pyenv:</description>
     </item>
     
   </channel>

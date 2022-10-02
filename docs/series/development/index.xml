@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Filippo B</title>
-    <link>https://www.filippobroggini.com/posts/</link>
-    <description>Recent content in Posts on Filippo B</description>
+    <title>Development on Filippo B</title>
+    <link>https://www.filippobroggini.com/series/development/</link>
+    <description>Recent content in Development on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Oct 2022 13:18:20 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Oct 2022 13:18:20 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/series/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I set up my macOS</title>
       <link>https://www.filippobroggini.com/posts/macos-setup/</link>
@@ -45,26 +45,6 @@ pyenv  Link to heading   To install it, we use brew:
 brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
 # pyenv config export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; command -v pyenv &amp;gt;/dev/null || export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)&amp;#34; eval &amp;#34;$(pyenv virtualenv-init -)&amp;#34; pyenv-virtualenv
 Usage  Link to heading   First, we list all Python versions available to pyenv:</description>
-    </item>
-    
-    <item>
-      <title>Hugo 101</title>
-      <link>https://www.filippobroggini.com/posts/hugo101/</link>
-      <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
-      
-      <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
-      <description>Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  </description>
-    </item>
-    
-    <item>
-      <title>First post on new website!</title>
-      <link>https://www.filippobroggini.com/posts/first_post/</link>
-      <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
-      
-      <guid>https://www.filippobroggini.com/posts/first_post/</guid>
-      <description>Howdy folks! I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩</description>
     </item>
     
   </channel>

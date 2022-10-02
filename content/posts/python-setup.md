@@ -1,15 +1,19 @@
 +++ 
-draft = true
+draft = false
 date = 2022-09-05T23:18:20+02:00
-updated = 2022-09-05T23:18:20+02:00
+updated = 2022-10-01T23:18:20+02:00
 title = "How to set up python on your computer"
 description = ""
 slug = ""
-authors = []
-tags = []
+authors = ["Filippo"]
+tags = [
+    "development"
+]
 categories = []
 externalLink = ""
-series = []
+series = [
+    "Development"
+]
 +++
 
 <span class="firstcharacter">H</span>owdy folks!
