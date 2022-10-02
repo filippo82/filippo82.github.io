@@ -6,7 +6,46 @@
     <description>Recent content in Posts on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 01:04:34 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.filippobroggini.com/posts/github-actions-and-docker-images/</link>
+      <pubDate>Sat, 10 Sep 2022 01:04:34 +0200</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/github-actions-and-docker-images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traefik 101</title>
+      <link>https://www.filippobroggini.com/posts/traefik/</link>
+      <pubDate>Sat, 30 Jan 2021 16:02:36 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/traefik/</guid>
+      <description>Resources     A Guide to K3s Ingress Using Traefik with NodePort as Tutorial1 Set up Ingress on Minikube with the NGINX Ingress Controller Directing Kubernetes traffic with Traefik as Tutorial2  Tutorial1    kubectl -n kube-system edit cm traefik
+[traefikLog] format = &amp;ldquo;json&amp;rdquo; [api] dashboard = true
+kubectl -n kube-system scale deploy traefik &amp;ndash;replicas 0 kubectl -n kube-system scale deploy traefik &amp;ndash;replicas 1
+kubectl -n kube-system port-forward deployment/traefik 8080</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.filippobroggini.com/posts/hugo101/</link>
+      <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
+      <description>Create a draft for a new article    hugo new posts/my-first-post.md This would be added in /contents/posts.</description>
+    </item>
+    
+    <item>
+      <title>Docker 101</title>
+      <link>https://www.filippobroggini.com/posts/docker101/</link>
+      <pubDate>Mon, 25 Jan 2021 22:01:47 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/docker101/</guid>
+      <description>Build an image    docker build -t fastapi_simple . Run an image locally    docker run -d --name mycontainer -p 80:80 fastapi_simple Login into DockerHub    docker login Tag an image    docker tag fastapi_simple filippo82/fastapi_simple:0.0.1 Push an image to DockerHub    docker push filippo82/fastapi_simple:0.0.1 </description>
+    </item>
+    
     <item>
       <title>First post on new website!</title>
       <link>https://www.filippobroggini.com/posts/first_post/</link>
@@ -14,7 +53,20 @@
       
       <guid>https://www.filippobroggini.com/posts/first_post/</guid>
       <description>Howdy folks! I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 📻🤩</description>
+Stay tuned 🤩</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://www.filippobroggini.com/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo    Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs    Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
   </channel>

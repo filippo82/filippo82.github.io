@@ -2,19 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.filippobroggini.com/posts/github-actions-and-docker-images/</loc>
+    <lastmod>2022-09-10T01:04:34+02:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/</loc>
+    <lastmod>2022-09-10T01:04:34+02:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/posts/</loc>
+    <lastmod>2022-09-10T01:04:34+02:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/posts/traefik/</loc>
+    <lastmod>2021-01-30T16:02:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/posts/hugo101/</loc>
+    <lastmod>2021-01-25T22:09:40+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/docker/</loc>
+    <lastmod>2021-01-25T22:01:47+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/docker/</loc>
+    <lastmod>2021-01-25T22:01:47+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/posts/docker101/</loc>
+    <lastmod>2021-01-25T22:01:47+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/</loc>
+    <lastmod>2021-01-25T22:01:47+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/</loc>
+    <lastmod>2021-01-25T22:01:47+01:00</lastmod>
+  </url><url>
     <loc>https://www.filippobroggini.com/series/fastapi/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/projects/fastapi_hello_world/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
-  </url><url>
     <loc>https://www.filippobroggini.com/projects/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/series/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/about/</loc>
@@ -26,12 +50,31 @@
     <loc>https://www.filippobroggini.com/tags/hugo/</loc>
     <lastmod>2020-02-05T23:17:23+01:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/posts/</loc>
-    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/tags/</loc>
-    <lastmod>2020-02-05T23:17:23+01:00</lastmod>
-  </url><url>
     <loc>https://www.filippobroggini.com/categories/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/categories/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/getting-started/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/categories/golang/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
 </urlset>

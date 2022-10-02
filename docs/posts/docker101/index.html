@@ -9,31 +9,29 @@
     
 
     <meta name="author" content="Filippo B">
-    <meta name="description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩">
+    <meta name="description" content="Build an image    docker build -t fastapi_simple . Run an image locally    docker run -d --name mycontainer -p 80:80 fastapi_simple Login into DockerHub    docker login Tag an image    docker tag fastapi_simple filippo82/fastapi_simple:0.0.1 Push an image to DockerHub    docker push filippo82/fastapi_simple:0.0.1 ">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First post on new website!"/>
-<meta name="twitter:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩"/>
+<meta name="twitter:title" content="Docker 101"/>
+<meta name="twitter:description" content="Build an image    docker build -t fastapi_simple . Run an image locally    docker run -d --name mycontainer -p 80:80 fastapi_simple Login into DockerHub    docker login Tag an image    docker tag fastapi_simple filippo82/fastapi_simple:0.0.1 Push an image to DockerHub    docker push filippo82/fastapi_simple:0.0.1 "/>
 
-    <meta property="og:title" content="First post on new website!" />
-<meta property="og:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩" />
+    <meta property="og:title" content="Docker 101" />
+<meta property="og:description" content="Build an image    docker build -t fastapi_simple . Run an image locally    docker run -d --name mycontainer -p 80:80 fastapi_simple Login into DockerHub    docker login Tag an image    docker tag fastapi_simple filippo82/fastapi_simple:0.0.1 Push an image to DockerHub    docker push filippo82/fastapi_simple:0.0.1 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/posts/first_post/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-02-05T23:17:23+01:00" />
-<meta property="article:modified_time" content="2020-02-05T23:17:23+01:00" />
+<meta property="og:url" content="https://www.filippobroggini.com/posts/docker101/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-25T22:01:47+01:00" />
+<meta property="article:modified_time" content="2021-01-25T22:01:47+01:00" />
+
 
 
 
     <title>
-  First post on new website! · Filippo B
+  Docker 101 · Filippo B
 </title>
 
     
-      <link rel="canonical" href="https://www.filippobroggini.com/posts/first_post/">
+      <link rel="canonical" href="https://www.filippobroggini.com/posts/docker101/">
     
 
     <link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -126,8 +124,8 @@ Stay tuned 🤩" />
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://www.filippobroggini.com/posts/first_post/">
-              First post on new website!
+            <a class="title-link" href="https://www.filippobroggini.com/posts/docker101/">
+              Docker 101
             </a>
           </h1>
         </div>
@@ -135,8 +133,8 @@ Stay tuned 🤩" />
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime="2020-02-05T23:17:23&#43;01:00">
-                February 5, 2020
+              <time datetime="2021-01-25T22:01:47&#43;01:00">
+                January 25, 2021
               </time>
             </span>
             <span class="reading-time">
@@ -144,12 +142,15 @@ Stay tuned 🤩" />
               One-minute read
             </span>
           </div>
-          
+          <div class="authors">
+  <i class="fa fa-user" aria-hidden="true"></i>
+    <a href="https://www.filippobroggini.com/authors/filippo/">Filippo</a></div>
+
           
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="https://www.filippobroggini.com/tags/hugo/">hugo</a>
+      <a href="https://www.filippobroggini.com/tags/docker/">docker</a>
     </span></div>
 
         </div>
@@ -157,16 +158,55 @@ Stay tuned 🤩" />
 
       <div>
         
-        <p><span class="firstcharacter">H</span>owdy folks!
-I&rsquo;ve finally had time to work on my personal website.
-I&rsquo;ll follow up soon with a post documenting my journey with Hugo.</p>
-<p>Stay tuned 🤩</p>
-
+        <h2 id="build-an-image">
+  Build an image
+  <a class="heading-link" href="#build-an-image">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker build -t fastapi_simple .
+</span></span></code></pre></div><h2 id="run-an-image-locally">
+  Run an image locally
+  <a class="heading-link" href="#run-an-image-locally">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker run -d --name mycontainer -p 80:80 fastapi_simple
+</span></span></code></pre></div><h2 id="login-into-dockerhub">
+  Login into DockerHub
+  <a class="heading-link" href="#login-into-dockerhub">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker login
+</span></span></code></pre></div><h2 id="tag-an-image">
+  Tag an image
+  <a class="heading-link" href="#tag-an-image">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker tag fastapi_simple filippo82/fastapi_simple:0.0.1
+</span></span></code></pre></div><h2 id="push-an-image-to-dockerhub">
+  Push an image to DockerHub
+  <a class="heading-link" href="#push-an-image-to-dockerhub">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>docker push filippo82/fastapi_simple:0.0.1
+</span></span></code></pre></div>
       </div>
 
 
       <footer>
         
+
+<section class="see-also">
+  
+    
+    
+    
+  
+</section>
 
 
         <div id="disqus_thread"></div>

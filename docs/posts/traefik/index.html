@@ -9,31 +9,37 @@
     
 
     <meta name="author" content="Filippo B">
-    <meta name="description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩">
+    <meta name="description" content="Resources     A Guide to K3s Ingress Using Traefik with NodePort as Tutorial1 Set up Ingress on Minikube with the NGINX Ingress Controller Directing Kubernetes traffic with Traefik as Tutorial2  Tutorial1    kubectl -n kube-system edit cm traefik
+[traefikLog] format = &ldquo;json&rdquo; [api] dashboard = true
+kubectl -n kube-system scale deploy traefik &ndash;replicas 0 kubectl -n kube-system scale deploy traefik &ndash;replicas 1
+kubectl -n kube-system port-forward deployment/traefik 8080">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First post on new website!"/>
-<meta name="twitter:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩"/>
+<meta name="twitter:title" content="Traefik 101"/>
+<meta name="twitter:description" content="Resources     A Guide to K3s Ingress Using Traefik with NodePort as Tutorial1 Set up Ingress on Minikube with the NGINX Ingress Controller Directing Kubernetes traffic with Traefik as Tutorial2  Tutorial1    kubectl -n kube-system edit cm traefik
+[traefikLog] format = &ldquo;json&rdquo; [api] dashboard = true
+kubectl -n kube-system scale deploy traefik &ndash;replicas 0 kubectl -n kube-system scale deploy traefik &ndash;replicas 1
+kubectl -n kube-system port-forward deployment/traefik 8080"/>
 
-    <meta property="og:title" content="First post on new website!" />
-<meta property="og:description" content="Howdy folks! I&rsquo;ve finally had time to work on my personal website. I&rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩" />
+    <meta property="og:title" content="Traefik 101" />
+<meta property="og:description" content="Resources     A Guide to K3s Ingress Using Traefik with NodePort as Tutorial1 Set up Ingress on Minikube with the NGINX Ingress Controller Directing Kubernetes traffic with Traefik as Tutorial2  Tutorial1    kubectl -n kube-system edit cm traefik
+[traefikLog] format = &ldquo;json&rdquo; [api] dashboard = true
+kubectl -n kube-system scale deploy traefik &ndash;replicas 0 kubectl -n kube-system scale deploy traefik &ndash;replicas 1
+kubectl -n kube-system port-forward deployment/traefik 8080" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/posts/first_post/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-02-05T23:17:23+01:00" />
-<meta property="article:modified_time" content="2020-02-05T23:17:23+01:00" />
+<meta property="og:url" content="https://www.filippobroggini.com/posts/traefik/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-01-30T16:02:36+01:00" />
+<meta property="article:modified_time" content="2021-01-30T16:02:36+01:00" />
 
 
 
     <title>
-  First post on new website! · Filippo B
+  Traefik 101 · Filippo B
 </title>
 
     
-      <link rel="canonical" href="https://www.filippobroggini.com/posts/first_post/">
+      <link rel="canonical" href="https://www.filippobroggini.com/posts/traefik/">
     
 
     <link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -126,8 +132,8 @@ Stay tuned 🤩" />
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="https://www.filippobroggini.com/posts/first_post/">
-              First post on new website!
+            <a class="title-link" href="https://www.filippobroggini.com/posts/traefik/">
+              Traefik 101
             </a>
           </h1>
         </div>
@@ -135,8 +141,8 @@ Stay tuned 🤩" />
           <div class="date">
             <span class="posted-on">
               <i class="fa fa-calendar" aria-hidden="true"></i>
-              <time datetime="2020-02-05T23:17:23&#43;01:00">
-                February 5, 2020
+              <time datetime="2021-01-30T16:02:36&#43;01:00">
+                January 30, 2021
               </time>
             </span>
             <span class="reading-time">
@@ -146,21 +152,53 @@ Stay tuned 🤩" />
           </div>
           
           
-          <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
-    <span class="tag">
-      <a href="https://www.filippobroggini.com/tags/hugo/">hugo</a>
-    </span></div>
-
+          
         </div>
       </header>
 
       <div>
         
-        <p><span class="firstcharacter">H</span>owdy folks!
-I&rsquo;ve finally had time to work on my personal website.
-I&rsquo;ll follow up soon with a post documenting my journey with Hugo.</p>
-<p>Stay tuned 🤩</p>
+        <h3 id="resources">
+  Resources
+  <a class="heading-link" href="#resources">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://levelup.gitconnected.com/a-guide-to-k3s-ingress-using-traefik-with-nodeport-6eb29add0b4b">A Guide to K3s Ingress Using Traefik with NodePort</a> as <code>Tutorial1</code></li>
+<li><a href="https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/">Set up Ingress on Minikube with the NGINX Ingress Controller</a></li>
+<li><a href="https://opensource.com/article/20/3/kubernetes-traefik">Directing Kubernetes traffic with Traefik</a> as <code>Tutorial2</code></li>
+</ul>
+<h2 id="tutorial1">
+  Tutorial1
+  <a class="heading-link" href="#tutorial1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>kubectl -n kube-system edit cm traefik</p>
+<p>[traefikLog]
+format = &ldquo;json&rdquo;
+[api]
+dashboard = true</p>
+<p>kubectl -n kube-system scale deploy traefik &ndash;replicas 0
+kubectl -n kube-system scale deploy traefik &ndash;replicas 1</p>
+<p>kubectl -n kube-system port-forward deployment/traefik 8080</p>
+<p>http://localhost:8080</p>
+<p>wget <a href="https://gist.github.com/hyperstripe50/8f47d659c90881c501bffe979576e5a7/raw/222246f0f5236ded55526855b1f74f92791dee01/deployment.yaml">https://gist.github.com/hyperstripe50/8f47d659c90881c501bffe979576e5a7/raw/222246f0f5236ded55526855b1f74f92791dee01/deployment.yaml</a></p>
+<p>kubectl apply -f ./deployment.yaml</p>
+<p>wget <a href="https://gist.github.com/hyperstripe50/36eb91b5d8a48b37ad2989feaba4974c/raw/1fa4e6d7adb1f01335af9bbac7cdcda6d6ec8c23/service.yaml">https://gist.github.com/hyperstripe50/36eb91b5d8a48b37ad2989feaba4974c/raw/1fa4e6d7adb1f01335af9bbac7cdcda6d6ec8c23/service.yaml</a></p>
+<p>kubectl apply -f ./service.yaml</p>
+<p>wget <a href="https://gist.github.com/hyperstripe50/839c0657de6e7743409a43fba421bbdb/raw/0147777717a6396ae5239ad540e888537844c939/ingress.yaml">https://gist.github.com/hyperstripe50/839c0657de6e7743409a43fba421bbdb/raw/0147777717a6396ae5239ad540e888537844c939/ingress.yaml</a></p>
+<p>kubectl apply -f ./ingress.yaml</p>
+<h2 id="tutorial2">
+  Tutorial2
+  <a class="heading-link" href="#tutorial2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>wget <a href="https://gitlab.com/carpie/ingressing_with_k3s/-/archive/master/ingressing_with_k3s-master.zip">https://gitlab.com/carpie/ingressing_with_k3s/-/archive/master/ingressing_with_k3s-master.zip</a></p>
+<p>kubectl create configmap mysite-html &ndash;from-file index.html</p>
+<p>kubectl create configmap mydog-html &ndash;from-file html</p>
 
       </div>
 

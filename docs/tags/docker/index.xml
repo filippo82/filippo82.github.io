@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Filippo B</title>
+    <link>https://www.filippobroggini.com/tags/docker/</link>
+    <description>Recent content in docker on Filippo B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Jan 2021 22:01:47 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 101</title>
+      <link>https://www.filippobroggini.com/posts/docker101/</link>
+      <pubDate>Mon, 25 Jan 2021 22:01:47 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/docker101/</guid>
+      <description>Build an image    docker build -t fastapi_simple . Run an image locally    docker run -d --name mycontainer -p 80:80 fastapi_simple Login into DockerHub    docker login Tag an image    docker tag fastapi_simple filippo82/fastapi_simple:0.0.1 Push an image to DockerHub    docker push filippo82/fastapi_simple:0.0.1 </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,13 +6,49 @@
     <description>Recent content in Tags on Filippo B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 23:17:23 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 22:01:47 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker</title>
+      <link>https://www.filippobroggini.com/tags/docker/</link>
+      <pubDate>Mon, 25 Jan 2021 22:01:47 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://www.filippobroggini.com/tags/hugo/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
       
       <guid>https://www.filippobroggini.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development</title>
+      <link>https://www.filippobroggini.com/tags/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.filippobroggini.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://www.filippobroggini.com/tags/go/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.filippobroggini.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://www.filippobroggini.com/tags/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.filippobroggini.com/tags/golang/</guid>
       <description></description>
     </item>
     

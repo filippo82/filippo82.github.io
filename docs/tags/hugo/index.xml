@@ -14,7 +14,20 @@
       
       <guid>https://www.filippobroggini.com/posts/first_post/</guid>
       <description>Howdy folks! I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 📻🤩</description>
+Stay tuned 🤩</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://www.filippobroggini.com/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.filippobroggini.com/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo    Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs    Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
     </item>
     
   </channel>
