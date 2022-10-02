@@ -1,2 +1,5 @@
 # Mac stuff
 .DS_Store
+
+# Hugo stuff
+.hugo_build.lock
