@@ -8,13 +8,15 @@
     <language>en</language>
     <lastBuildDate>Mon, 25 Jan 2021 22:09:40 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo 101</title>
+      <title>How to build your personal website with Hugo</title>
       <link>https://www.filippobroggini.com/posts/hugo101/</link>
       <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
       
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
-      <description>Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  </description>
+      <description>Howdy folks!
+Work in progress!
+Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false.</description>
     </item>
     
     <item>

@@ -15,11 +15,11 @@
       <guid>https://www.filippobroggini.com/posts/macos-setup/</guid>
       <description>Howdy folks!
 Work in progress!
-Dotfiles  Link to heading   Work in progress!
- Link to heading   Let&amp;rsquo;s brew!  Link to heading   Homebrew is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.
+Dotfiles Link to heading Work in progress!
+Link to heading Let&amp;rsquo;s brew! Link to heading Homebrew is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.
 First let&amp;rsquo;s install it with this handy command:
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq pyenv zsh Oh My ZSH!</description>
+brew --version brew install git jq pyenv zsh Oh My ZSH! Link to heading From its website:</description>
     </item>
     
     <item>
@@ -41,20 +41,23 @@ This is my-dot-files repo.</description>
       <guid>https://www.filippobroggini.com/posts/python-setup/</guid>
       <description>Howdy folks!
 I recommend pyenv
-pyenv  Link to heading   To install it, we use brew:
+pyenv Link to heading To install it, we use brew:
 brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
 # pyenv config export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; command -v pyenv &amp;gt;/dev/null || export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)&amp;#34; eval &amp;#34;$(pyenv virtualenv-init -)&amp;#34; pyenv-virtualenv
-Usage  Link to heading   First, we list all Python versions available to pyenv:</description>
+Usage Link to heading First, we list all Python versions available to pyenv:
+$ pyenv versions </description>
     </item>
     
     <item>
-      <title>Hugo 101</title>
+      <title>How to build your personal website with Hugo</title>
       <link>https://www.filippobroggini.com/posts/hugo101/</link>
       <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
       
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
-      <description>Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  </description>
+      <description>Howdy folks!
+Work in progress!
+Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false.</description>
     </item>
     
     <item>

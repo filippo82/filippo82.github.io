@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.filippobroggini.com/series/development/</loc>
+    <loc>https://www.filippobroggini.com/tags/development/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/tags/development/</loc>
+    <loc>https://www.filippobroggini.com/series/development/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/</loc>
@@ -29,20 +29,11 @@
     <loc>https://www.filippobroggini.com/posts/python-setup/</loc>
     <lastmod>2022-09-05T23:18:20+02:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/tags/hugo/</loc>
-    <lastmod>2021-01-25T22:09:40+01:00</lastmod>
-  </url><url>
     <loc>https://www.filippobroggini.com/posts/hugo101/</loc>
     <lastmod>2021-01-25T22:09:40+01:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/series/fastapi/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/projects/fastapi_hello_world/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/projects/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
+    <loc>https://www.filippobroggini.com/tags/hugo/</loc>
+    <lastmod>2021-01-25T22:09:40+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/about/</loc>
     <lastmod>2020-02-06T01:09:59+01:00</lastmod>

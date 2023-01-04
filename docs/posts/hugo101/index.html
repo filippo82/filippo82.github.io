@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>
-  Hugo 101 · Filippo B
+  How to build your personal website with Hugo · Filippo B
 </title>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +12,24 @@
 
 
 <meta name="author" content="Filippo B">
-<meta name="description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  ">
+<meta name="description" content="Howdy folks!
+Work in progress!
+Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false.">
 <meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo 101"/>
-<meta name="twitter:description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  "/>
+<meta name="twitter:title" content="How to build your personal website with Hugo"/>
+<meta name="twitter:description" content="Howdy folks!
+Work in progress!
+Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false."/>
 
-<meta property="og:title" content="Hugo 101" />
-<meta property="og:description" content="Create a draft for a new article  Link to heading   hugo new posts/my-first-post.md This would be added in /contents/posts.
-Resources  Link to heading    The complete guide to Hugo file structure and code organization The Ultimate Guide to Hugo Sections  " />
+<meta property="og:title" content="How to build your personal website with Hugo" />
+<meta property="og:description" content="Howdy folks!
+Work in progress!
+Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.filippobroggini.com/posts/hugo101/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-01-25T22:09:40+01:00" />
@@ -51,7 +57,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
   
     
     
-    <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder-dark.min.9a9db0e0de881d387a43fc9df5819ecabc9bb20cc3db4221bf2cecec871e6712.css" integrity="sha256-mp2w4N6IHTh6Q/yd9YGeyrybsgzD20Ihvyzs7IceZxI=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder-dark.min.78b5fe3864945faf5207fb8fe3ab2320d49c3365def0e88ac1df0ddadc54a03c.css" integrity="sha256-eLX&#43;OGSUX69SB/uP46sjINScM2Xe8OiKwd8N2txUoDw=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -78,7 +84,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
 
 
 
-<meta name="generator" content="Hugo 0.96.0" />
+<meta name="generator" content="Hugo 0.107.0">
 
 
 
@@ -142,7 +148,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
         <div class="post-title">
           <h1 class="title">
             <a class="title-link" href="https://www.filippobroggini.com/posts/hugo101/">
-              Hugo 101
+              How to build your personal website with Hugo
             </a>
           </h1>
         </div>
@@ -175,15 +181,33 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
 
       <div>
         
-        <h2 id="create-a-draft-for-a-new-article">
+        <p><span class="firstcharacter">H</span>owdy folks!</p>
+<p>Work in progress!</p>
+<h2 id="create-a-draft-for-a-new-article">
   Create a draft for a new article
   <a class="heading-link" href="#create-a-draft-for-a-new-article">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
+<p>When you feel creative and want to start writing a new blog post,
+you can create a draft by executing</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new posts/my-first-post.md
-</span></span></code></pre></div><p>This would be added in <code>/contents/posts</code>.</p>
+</span></span></code></pre></div><p>The new draft will be added in the <code>/contents/posts</code> directory.
+The <code>draft</code> value for the new draft will be initially set to <code>true</code>.
+Once the draft is ready and can be published, the <code>draft</code> value will need to be set to <code>false</code>.</p>
+<h2 id="test-and-view-locally">
+  Test and view locally
+  <a class="heading-link" href="#test-and-view-locally">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Hugo provides a development web server which allows you to easily view your website.
+You can start the web server by executing</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>and then you can navigate to <a href="https://localhost:1313">https://localhost:1313</a> in a browser
+to view your website.</p>
 <h2 id="resources">
   Resources
   <a class="heading-link" href="#resources">
@@ -255,7 +279,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
     
       2019 -
     
-    2022
+    2023
      Filippo B 
     ·
     Made with ❤️  in Zürich, Switzerland
@@ -271,7 +295,7 @@ Resources  Link to heading    The complete guide to Hugo file structure and code
 
   
   
-  <script src="https://www.filippobroggini.com/js/coder.min.617ac1196e51a8e5820c29ea3f349ae87be7db1242a5a91f3afa569275213d0f.js" integrity="sha256-YXrBGW5RqOWCDCnqPzSa6Hvn2xJCpakfOvpWknUhPQ8="></script>
+  <script src="https://www.filippobroggini.com/js/coder.min.236049395dc3682fb2719640872958e12f1f24067bb09c327b233e6290c7edac.js" integrity="sha256-I2BJOV3DaC&#43;ycZZAhylY4S8fJAZ7sJwyeyM&#43;YpDH7aw="></script>
   
 
   
