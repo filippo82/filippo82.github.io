@@ -61,6 +61,15 @@ hugo new posts/my-first-post.md The new draft will be added in the /contents/pos
     </item>
     
     <item>
+      <title>FastAPI Hello World</title>
+      <link>https://www.filippobroggini.com/projects/fastapi_hello_world/</link>
+      <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/projects/fastapi_hello_world/</guid>
+      <description>Hello FastAPI!</description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>https://www.filippobroggini.com/about/</link>
       <pubDate>Thu, 06 Feb 2020 01:09:59 +0100</pubDate>

@@ -16,5 +16,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>FastAPI</title>
+      <link>https://www.filippobroggini.com/series/fastapi/</link>
+      <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/series/fastapi/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

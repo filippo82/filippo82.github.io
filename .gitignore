@@ -1,5 +1,8 @@
 # Mac stuff
 .DS_Store
 
+# Filippo stuff
+docs_old
+
 # Hugo stuff
 .hugo_build.lock
