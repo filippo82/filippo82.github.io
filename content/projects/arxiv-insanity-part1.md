@@ -23,16 +23,15 @@ TBD
 
 TBD
 
+Initial static data dump and then daily data loads using arXiv REST APIs.
+
+### Initial static dataset from Kaggle
+
 Initial static dataset from [Kaggle](https://www.kaggle.com/):
 [arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv)
 
 First, you need to authenticate to use the Kaggle CLI.
-To do so, follow the [instructions](https://www.kaggle.com/docs/api#getting-started-installation-&-authentication):
 
-* go to your [account](https://www.kaggle.com/YOUR_USERNAME/account) on Kaggle;
-* generate a new API token;
-* move the downloaded `kaggle.json` file to `~/.kaggle/kaggle.json`;
-* run `chmod 600 ~/.kaggle/kaggle.json` to ensure that `kaggle.json` has the right permissions.
 
 Next, download the dataset:
 
@@ -43,5 +42,30 @@ mv ~/Downloads/arxiv-metadata-oai-snapshot.json /YOUR/PROJECT/DATA
 rm ~/Downloads/arxiv.zip
 ```
 
+Or access it directly from GCP... see info on Kaggle.
+
+Load the data into BigQuery.
+
+`dbt`?
 
 
+#### Prefect
+
+Build a deployment:
+
+```bash
+cd pipelines/flows
+prefect deployment build ./download_dataset_from_kaggle.py:log_flow -n download_dataset_from_kaggle -q test -sb gcs/block-test -o download_dataset_from_kaggle-deployment.yaml
+```
+
+Apply a deployment:
+
+```bash
+prefect deployment apply download_dataset_from_kaggle-deployment.yaml
+```
+
+### Daily data loads using arXiv REST APIs
+
+TBD
+
+This shall be automated with Prefect.

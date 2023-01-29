@@ -28,11 +28,16 @@ docker build -t fastapi_simple .
 docker run -d --name mycontainer -p 80:80 fastapi_simple
 ```
 
+The syntax for `-p` is `HOST_PORT:CLIENT_PORT`.
+
 ## Login into DockerHub
 
 ```shell
 docker login
 ```
+
+Logging in with your password grants your terminal complete access to your account.
+For better security, log in with a limited-privilege personal access token. Learn more at https://docs.docker.com/go/access-tokens/
 
 ## Tag an image
 

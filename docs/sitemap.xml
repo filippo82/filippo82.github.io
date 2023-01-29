@@ -2,25 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.filippobroggini.com/categories/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/til/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/til/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/categories/til/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/til/</loc>
+    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
+  </url><url>
     <loc>https://www.filippobroggini.com/tags/development/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/series/development/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/</loc>
-    <lastmod>2022-10-02T13:18:20+02:00</lastmod>
-  </url><url>
     <loc>https://www.filippobroggini.com/posts/macos-setup/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/posts/</loc>
-    <lastmod>2022-10-02T13:18:20+02:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/series/</loc>
-    <lastmod>2022-10-02T13:18:20+02:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/tags/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/posts/dotfiles-setup/</loc>
@@ -49,7 +67,5 @@
   </url><url>
     <loc>https://www.filippobroggini.com/posts/first_post/</loc>
     <lastmod>2020-02-05T23:17:23+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/categories/</loc>
   </url>
 </urlset>

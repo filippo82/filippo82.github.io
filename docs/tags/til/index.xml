@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>til on Filippo B</title>
+    <link>https://www.filippobroggini.com/tags/til/</link>
+    <description>Recent content in til on Filippo B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 29 Jan 2023 16:02:10 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TIL - Create custom avatars for Brave browser</title>
+      <link>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</link>
+      <pubDate>Sun, 29 Jan 2023 16:02:10 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</guid>
+      <description> Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. </description>
+    </item>
+    
+  </channel>
+</rss>
