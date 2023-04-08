@@ -55,7 +55,7 @@ Build a deployment:
 
 ```bash
 cd pipelines/flows
-prefect deployment build ./download_dataset_from_kaggle.py:log_flow -n download_dataset_from_kaggle -q test -sb gcs/block-test -o download_dataset_from_kaggle-deployment.yaml
+prefect deployment build ./download_dataset_from_kaggle.py:flow_get_arxiv_kaggle_dataset --name download_dataset_from_kaggle --work-queue arxiv --storage-block gcs/block-bucket-pipelines --output download_dataset_from_kaggle-deployment.yaml
 ```
 
 Apply a deployment:

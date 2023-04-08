@@ -50,3 +50,11 @@ docker tag fastapi_simple filippo82/fastapi_simple:0.0.1
 ```shell
 docker push filippo82/fastapi_simple:0.0.1
 ```
+
+## Show container size
+
+To display the file size of running containers, one can use the `--size` argument of `docker ps`:
+
+```shell
+docker ps --size
+```
