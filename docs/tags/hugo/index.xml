@@ -15,8 +15,9 @@
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
       <description>Howdy folks!
 Work in progress!
+config.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
 Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
-hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true. Once the draft is ready and can be published, the draft value will need to be set to false.</description>
+hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true.</description>
     </item>
     
     <item>

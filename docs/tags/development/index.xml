@@ -19,7 +19,7 @@ Dotfiles Link to heading Work in progress!
 Link to heading Let&amp;rsquo;s brew! Link to heading Homebrew is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.
 First let&amp;rsquo;s install it with this handy command:
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq pyenv zsh Oh My ZSH! Link to heading From its website:</description>
+brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading From its website:</description>
     </item>
     
     <item>
