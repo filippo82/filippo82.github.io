@@ -18,6 +18,12 @@ series = []
 
 Work in progress!
 
+## `config.toml`
+
+Available `pygmentsStyle` styles: https://xyproto.github.io/splash/docs/all.html
+See this comment from the author of `hugo-code` theme: https://github.com/luizdepra/hugo-coder/issues/603
+
+
 ## Create a draft for a new article
 
 When you feel creative and want to start writing a new blog post,

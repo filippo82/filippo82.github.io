@@ -58,3 +58,17 @@ To display the file size of running containers, one can use the `--size` argumen
 ```shell
 docker ps --size
 ```
+
+## Determine the values of `ENTRYPOINT` and `CMD` commands
+
+```bash
+docker inspect <image id>
+```
+
+```bash
+docker inspect -f '{{.Config.Entrypoint}}' <image id>
+```
+
+## Which is the difference between the `ENTRYPOINT` and `CMD` commands?
+
+* https://devopscube.com/entrypoint-vs-cmd-explained/

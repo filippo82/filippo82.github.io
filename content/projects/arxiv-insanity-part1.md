@@ -19,43 +19,115 @@ series = [
 
 TBD
 
-## Data
+## Infrastructure
 
-TBD
+### Docker images
 
-Initial static data dump and then daily data loads using arXiv REST APIs.
-
-### Initial static dataset from Kaggle
-
-Initial static dataset from [Kaggle](https://www.kaggle.com/):
-[arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv)
-
-First, you need to authenticate to use the Kaggle CLI.
-
-
-Next, download the dataset:
+First, we need to create a repository in Google Cloud Artifact Registry.
+This should be executed only once:
 
 ```shell
-kaggle datasets download -d Cornell-University/arxiv
-unzip ~/Downloads/arxiv.zip
-mv ~/Downloads/arxiv-metadata-oai-snapshot.json /YOUR/PROJECT/DATA
-rm ~/Downloads/arxiv.zip
+GCLOUD_REGION="us-central1"
+GCLOUD_ARTIFACTS_REPOSITORY="prefect"
+DESCRIPTION="Registry for prefect images"
+gcloud artifacts repositories create ${GCLOUD_ARTIFACTS_REPOSITORY} \
+    --repository-format=docker \
+    --location=${GCLOUD_REGION} \
+    --description=${DESCRIPTION} \
+    --labels=project=prefect
 ```
 
-Or access it directly from GCP... see info on Kaggle.
+Then we verify that the repository has been actually created:
 
-Load the data into BigQuery.
+```shell
+gcloud artifacts repositories list --format="json" | jq '.[].name'
+```
 
-`dbt`?
+#### Automated build
 
+Resources:
 
-#### Prefect
+* [Build and push a Docker image with Cloud Build](https://cloud.google.com/build/docs/build-push-docker-image)
+* [Create a build configuration file](https://cloud.google.com/build/docs/configuring-builds/create-basic-configuration)
+* [Substituting variable values > Dynamic substitutions](https://cloud.google.com/build/docs/configuring-builds/substitute-variable-values#dynamic_substitutions)
+
+Enable the Cloud Build, Artifact Registry, and Secret Manager APIs using `gcloud`.
+
+Grante the required IAM permissions:
+
+```bash
+PN=$(gcloud projects describe ${PROJECT_ID} --format="value(projectNumber)")
+CLOUD_BUILD_SERVICE_AGENT="service-${PN}@gcp-sa-cloudbuild.iam.gserviceaccount.com"
+gcloud projects add-iam-policy-binding ${PROJECT_ID} \
+  --member="serviceAccount:${CLOUD_BUILD_SERVICE_AGENT}" \
+  --role="roles/cloudbuild.connectionAdmin"
+```
+
+Install the [Google Cloud Build](https://github.com/marketplace/google-cloud-build) app
+in your GitHub account.
+
+Set up a GitHub connection and then link a repository from the
+[Cloud Build console](https://console.cloud.google.com/cloud-build/repositories/2nd-gen).
+
+Set up a trigger in the right region from the
+[Cloud Build console](https://console.cloud.google.com/cloud-build/triggers;region=us-central1).
+
+#### Manual build using Dockerfile
+
+Build your container image using Cloud Build, which is similar to running `docker build` and `docker push`, but the build happens on Google Cloud:
+
+```shell
+cd infrastructure/prefect-docker-images/prefect-arxiv-cpu
+GCLOUD_PROJECT_ID=$(gcloud config get-value project)
+GCLOUD_REGION="us-central1"
+GCLOUD_ARTIFACTS_REPOSITORY="prefect"
+IMAGE_NAME="prefect-arxiv-cpu"
+gcloud builds submit --async \
+  --region=${GCLOUD_REGION} \
+  --tag "${GCLOUD_REGION}-docker.pkg.dev/${GCLOUD_PROJECT_ID}/${GCLOUD_ARTIFACTS_REPOSITORY}/${IMAGE_NAME}" .
+```
+
+> :warning: If you don't set the `--region` flag, this will be a `global` build.
+
+#### Manual build using a build config file
+
+```shell
+GCLOUD_REGION="us-central1"
+gcloud builds submit \
+  --region=${GCLOUD_REGION} \
+  --config cloudbuild.yaml
+```
+
+> :warning: You need to add `dir` to the build step definition:
+> 
+> * https://cloud.google.com/build/docs/build-config-file-schema#dir
+> * https://stackoverflow.com/a/73474845
+
+## Orchestration
+
+## Prefect
+
+Create a work pool:
+
+```shell
+prefect work-pool create "arxiv-normal"
+```
+
+## Flows
+
+### `download_dataset_from_kaggle`
 
 Build a deployment:
 
 ```bash
-cd pipelines/flows
-prefect deployment build ./download_dataset_from_kaggle.py:flow_get_arxiv_kaggle_dataset --name download_dataset_from_kaggle --work-queue arxiv --storage-block gcs/block-bucket-pipelines --output download_dataset_from_kaggle-deployment.yaml
+cd pipelines/flows/download_dataset_from_kaggle
+prefect deployment build ./download_dataset_from_kaggle.py:flow_get_arxiv_kaggle_dataset \
+    --name download_dataset_from_kaggle \
+    --work-queue arxiv \
+    --pool arxiv-normal \
+    --storage-block gcs/block-bucket-pipelines \
+    --infra-block cloud-run-job/block-cloud-run-job \
+    --output download_dataset_from_kaggle-deployment.yaml
 ```
 
 Apply a deployment:
@@ -64,8 +136,50 @@ Apply a deployment:
 prefect deployment apply download_dataset_from_kaggle-deployment.yaml
 ```
 
-### Daily data loads using arXiv REST APIs
+### `compute_embeddings_for_kaggle_dataset`
 
-TBD
+Build a deployment:
 
-This shall be automated with Prefect.
+```bash
+cd pipelines/flows/compute_embeddings_for_kaggle_dataset
+prefect deployment build ./compute_embeddings_for_kaggle_dataset.py:flow_compute_embeddings_for_kaggle_dataset \
+    --name compute_embeddings_for_kaggle_dataset \
+    --work-queue arxiv \
+    --pool arxiv-normal \
+    --storage-block gcs/block-bucket-pipelines \
+    --infra-block cloud-run-job/block-cloud-run-job \
+    --output compute_embeddings_for_kaggle_dataset-deployment.yaml
+```
+
+Apply a deployment:
+
+```bash
+prefect deployment apply compute_embeddings_for_kaggle_dataset-deployment.yaml
+```
+
+### `get_metadata_from_arxiv_api`
+
+Build a deployment:
+
+```bash
+cd pipelines/flows/get_metadata_from_arxiv_api
+prefect deployment build ./get_metadata_from_arxiv_api.py:flow_get_metadata_from_arxiv_api \
+    --name get_metadata_from_arxiv_api \
+    --work-queue arxiv \
+    --pool arxiv-normal \
+    --storage-block gcs/block-bucket-pipelines \
+    --infra-block cloud-run-job/block-cloud-run-job \
+    --output get_metadata_from_arxiv_api-deployment.yaml
+```
+
+Apply a deployment:
+
+```bash
+prefect deployment apply get_metadata_from_arxiv_api-deployment.yaml
+```
+
+On the VM, we start a Prefect agent:
+
+```shell
+prefect agent start -p 'arxiv-normal'
+```

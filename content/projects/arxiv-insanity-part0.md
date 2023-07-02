@@ -2,7 +2,7 @@
 draft = true
 date = 2023-01-07T20:19:33+01:00
 updated = 2023-01-08T20:19:33+01:00
-title = "arXiv insanity - Part 0 - Setup"
+title = "arXiv insanity - Part 0 - Setup all the things!"
 description = ""
 slug = ""
 tags = []
@@ -19,7 +19,7 @@ series = [
 
 TBD
 
-## Set up VM
+## Set up the Compute Engine instance
 
 ```bash
 sudo apt install python3.10-venv
@@ -54,7 +54,29 @@ pip install -U -r requirements-dev.txt
 pre-commit install
 ```
 
+ADD BOX
+
+Add link to blog post with my opinionated Python setup.
+
 ## Credentials
+
+* Google Cloud
+* Kaggle
+* Prefect Cloud
+
+### Google Cloud
+
+First install the Google Cloud CLI by following the [official instructions](https://cloud.google.com/sdk/docs/install#mac). If already installed, you can update its components to the latest version:
+
+```bash
+gcloud components update
+```
+
+Finally, you can authenticate yourself with `gcloud`:
+
+```bash
+gcloud auth login
+```
 
 ### Kaggle
 
@@ -78,7 +100,6 @@ ADD BOX
 
 If you have not created a workspace yet, you will be asked to create one
 when logging in for the first time with `prefect cloud login`.
-
 
 In your local environment, where you executed the login command above,
 create a file named `basic_flow.py` with the following contents:

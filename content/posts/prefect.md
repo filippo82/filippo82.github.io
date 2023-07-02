@@ -61,7 +61,34 @@ Note: If you normally run Docker commands on Linux with sudo, Docker looks for A
 ### Set up the VM
 
 ```shell
-apt get install python3-pip docker.io docker-credential-gcr
+sudo apt-get update
+sudo apt-get install python3-pip docker.io docker-credential-gcr
+```
+
+Install `pyenv`:
+
+```shell
+sudo apt-get install make build-essential zlib1g-dev libssl-dev liblzma-dev libncurses5-dev libsqlite3-dev libreadline-dev libbz2-dev libffi-dev
+curl https://pyenv.run | bash
+```
+
+Follow the instructions and add this bit to `~/.bashrc`:
+
+```shell
+TBD
+```
+
+Install a python version and set it as `global`:
+
+```shell
+pyenv install 3.10.11
+pyenv global 3.10.11
+```
+
+Intall `pyenv-virtualenv`:
+
+```shell
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 ```
 
 ## Prefect concepts

@@ -44,7 +44,7 @@ brew --version
 
 
 ```shell
-brew install git jq pyenv zsh
+brew install git jq neovim pyenv zsh
 ```
 
 ## Oh My ZSH!
