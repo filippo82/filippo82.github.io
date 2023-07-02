@@ -6,8 +6,8 @@ title = "{{ replace .Name "-" " " | title }}"
 description = ""
 slug = ""
 authors = []
-tags = []
-categories = []
+tags = ["notes"]
+categories = ["notes"]
 externalLink = ""
-series = []
+series = ["notes"]
 +++

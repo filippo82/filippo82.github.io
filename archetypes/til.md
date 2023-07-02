@@ -2,7 +2,7 @@
 draft = true
 date = {{ .Date }}
 updated = {{ .Date }}
-title = "TIL - "
+title = "TIL - {{ replace .Name "-" " " | title }}"
 description = ""
 slug = ""
 authors = []
