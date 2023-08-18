@@ -18,11 +18,10 @@ series = []
 
 Work in progress!
 
-## `config.toml`
+## `hugo.toml`
 
 Available `pygmentsStyle` styles: https://xyproto.github.io/splash/docs/all.html
 See this comment from the author of `hugo-code` theme: https://github.com/luizdepra/hugo-coder/issues/603
-
 
 ## Create a draft for a new article
 
@@ -37,6 +36,13 @@ The new draft will be added in the `/contents/posts` directory.
 The `draft` value for the new draft will be initially set to `true`.
 Once the draft is ready and can be published, the `draft` value will need to be set to `false`.
 
+## Spruce it up
+
+I like using info and warning boxes but they are not available out-of-the-box with Hugo.
+For this reason, I installed [hugo-notice](https://github.com/martignoni/hugo-notice),
+a Hugo theme component which provides a shortcode to display nice notices.
+It also supports dark mode! It provides four notice types: warning, info, note and tip.
+
 ## Test and view locally
 
 Hugo provides a development web server which allows you to easily view your website.
@@ -49,7 +55,7 @@ hugo server
 and then you can navigate to [https://localhost:1313](https://localhost:1313) in a browser
 to view your website.
 
-## Resources
+## Additional resources
 
 * [The complete guide to Hugo file structure and code organization](https://jpdroege.com/blog/hugo-file-organization/)
 * [The Ultimate Guide to Hugo Sections](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)

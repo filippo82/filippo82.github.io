@@ -58,9 +58,10 @@ This is my-dot-files repo.</description>
       
       <guid>https://www.filippobroggini.com/posts/python-setup/</guid>
       <description>There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv.
-pyenv Link to heading To install it, we use brew:
-brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
-# pyenv config export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34; command -v pyenv &amp;gt;/dev/null || export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(pyenv init -)&amp;#34; eval &amp;#34;$(pyenv virtualenv-init -)&amp;#34; pyenv-virtualenv</description>
+If you are a macOS user like me, you should use brew to install it.
+brew update brew install pyenv pyenv-virtualenv go Warning
+This is a warning notice. Be warned!
+Then, we append these lines at the end of the ~/.zshrc file:</description>
     </item>
     
     <item>

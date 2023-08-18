@@ -1,6 +1,6 @@
 baseurl = "https://www.filippobroggini.com"
 title = "Filippo B"
-theme = "hugo-coder"
+theme = ["hugo-notice", "hugo-coder"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -18,76 +18,82 @@ enableEmoji = true
 
 disqusShortname = "yourdiscussshortname"
 
+[module]
+[[module.imports]]
+path = "github.com/martignoni/hugo-notice"
+[[module.imports]]
+path = "hugo-coder"
+
 [taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
-    author = "Filippo B"
-    info = ["Rocket ship builder", "Father"]
-    description = "Filippo B's personal website"
-    keywords = "blog,developer,personal"
-    avatarURL = "images/filippo_square.png"
+author = "Filippo B"
+info = ["Rocket ship builder", "Father"]
+description = "Filippo B's personal website"
+keywords = "blog,developer,personal"
+avatarURL = "images/filippo_square.png"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = ""
+footercontent = ""
 
-    colorScheme = "auto"
-    hideColorSchemeToggle = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
 
-    hideCredits = false
-    hideCopyright = false
+hideCredits = false
+hideCopyright = false
 
-    since = 2019
+since = 2019
 
-    rtl = false
+rtl = false
 
-    math = true
-    customCSS = ["css/custom.css"]
+math = true
+customCSS = ["css/custom.css"]
 
 # Social links
 [[params.social]]
-    name = "Github"
-    icon = "fa fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/filippo82/"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/filippo82/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fa fa-linkedin fa-2x"
-    weight = 2
-    url = "https://www.linkedin.com/in/filippobroggini/"
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/filippobroggini/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/olgias/"
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/olgias/"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "posts/"
+name = "Blog"
+weight = 1
+url = "posts/"
 [[menu.main]]
-    name = "Projects"
-    weight = 2
-    url = "projects/"
+name = "Projects"
+weight = 2
+url = "projects/"
 [[menu.main]]
-    name = "Notes"
-    weight = 3
-    url = "notes/"
+name = "Notes"
+weight = 3
+url = "notes/"
 [[menu.main]]
-    name = "TIL"
-    weight = 4
-    url = "til/"
+name = "TIL"
+weight = 4
+url = "til/"
 [[menu.main]]
-    name = "About me"
-    weight = 100
-    url = "about/"
+name = "About me"
+weight = 100
+url = "about/"
