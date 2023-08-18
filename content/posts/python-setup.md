@@ -16,9 +16,9 @@ series = [
 ]
 +++
 
-<span class="firstcharacter">H</span>owdy folks!
-
-I recommend [pyenv](https://github.com/pyenv/pyenv)
+<span class="firstcharacter">T</span>here are many ways to install Python.
+You can ask three people about this topic and you will get five different opinions.
+My opinionated recommendation is to use [pyenv](https://github.com/pyenv/pyenv).
 
 # `pyenv`
 
@@ -43,8 +43,14 @@ eval "$(pyenv virtualenv-init -)"
 
 ## Usage
 
-First, we list all Python versions available to `pyenv`:
+First, we list all Python versions available to `pyenv` on the current system:
 
 ```shell
-$ pyenv versions
+pyenv versions
+```
+
+Then, we list all available versions:
+
+```shell
+pyenv install --list
 ```

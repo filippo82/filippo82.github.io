@@ -13,33 +13,24 @@
 
 
 <meta name="author" content="Filippo B">
-<meta name="description" content="Howdy folks!
-I recommend pyenv
+<meta name="description" content="There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv.
 pyenv Link to heading To install it, we use brew:
 brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
-# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
-Usage Link to heading First, we list all Python versions available to pyenv:
-$ pyenv versions ">
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv">
 <meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to set up python on your computer"/>
-<meta name="twitter:description" content="Howdy folks!
-I recommend pyenv
+<meta name="twitter:description" content="There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv.
 pyenv Link to heading To install it, we use brew:
 brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
-# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
-Usage Link to heading First, we list all Python versions available to pyenv:
-$ pyenv versions "/>
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv"/>
 
 <meta property="og:title" content="How to set up python on your computer" />
-<meta property="og:description" content="Howdy folks!
-I recommend pyenv
+<meta property="og:description" content="There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv.
 pyenv Link to heading To install it, we use brew:
 brew update brew install pyenv pyenv-virtualenv Then, we append these lines at the end of the ~/.zshrc file:
-# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv
-Usage Link to heading First, we list all Python versions available to pyenv:
-$ pyenv versions " />
+# pyenv config export PYENV_ROOT=&#34;$HOME/.pyenv&#34; command -v pyenv &gt;/dev/null || export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34; eval &#34;$(pyenv init -)&#34; eval &#34;$(pyenv virtualenv-init -)&#34; pyenv-virtualenv" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.filippobroggini.com/posts/python-setup/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-09-05T23:18:20+02:00" />
@@ -196,8 +187,9 @@ $ pyenv versions " />
 
       <div class="post-content">
         
-        <p><span class="firstcharacter">H</span>owdy folks!</p>
-<p>I recommend <a href="https://github.com/pyenv/pyenv"  class="external-link" target="_blank" rel="noopener">pyenv</a></p>
+        <p><span class="firstcharacter">T</span>here are many ways to install Python.
+You can ask three people about this topic and you will get five different opinions.
+My opinionated recommendation is to use <a href="https://github.com/pyenv/pyenv"  class="external-link" target="_blank" rel="noopener">pyenv</a>.</p>
 <h1 id="pyenv">
   <code>pyenv</code>
   <a class="heading-link" href="#pyenv">
@@ -222,8 +214,10 @@ $ pyenv versions " />
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>First, we list all Python versions available to <code>pyenv</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f5a97f;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ pyenv versions
+<p>First, we list all Python versions available to <code>pyenv</code> on the current system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f5a97f;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>pyenv versions
+</span></span></code></pre></div><p>Then, we list all available versions:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f5a97f;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>pyenv install --list
 </span></span></code></pre></div>
       </div>
 

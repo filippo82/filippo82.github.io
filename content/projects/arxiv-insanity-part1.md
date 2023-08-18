@@ -55,7 +55,7 @@ Enable the Cloud Build, Artifact Registry, and Secret Manager APIs using `gcloud
 
 Grante the required IAM permissions:
 
-```bash
+```shell
 PN=$(gcloud projects describe ${PROJECT_ID} --format="value(projectNumber)")
 CLOUD_BUILD_SERVICE_AGENT="service-${PN}@gcp-sa-cloudbuild.iam.gserviceaccount.com"
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \
@@ -119,7 +119,7 @@ prefect work-pool create "arxiv-normal"
 
 Build a deployment:
 
-```bash
+```shell
 cd pipelines/flows/download_dataset_from_kaggle
 prefect deployment build ./download_dataset_from_kaggle.py:flow_get_arxiv_kaggle_dataset \
     --name download_dataset_from_kaggle \
@@ -132,7 +132,7 @@ prefect deployment build ./download_dataset_from_kaggle.py:flow_get_arxiv_kaggle
 
 Apply a deployment:
 
-```bash
+```shell
 prefect deployment apply download_dataset_from_kaggle-deployment.yaml
 ```
 
@@ -140,7 +140,7 @@ prefect deployment apply download_dataset_from_kaggle-deployment.yaml
 
 Build a deployment:
 
-```bash
+```shell
 cd pipelines/flows/compute_embeddings_for_kaggle_dataset
 prefect deployment build ./compute_embeddings_for_kaggle_dataset.py:flow_compute_embeddings_for_kaggle_dataset \
     --name compute_embeddings_for_kaggle_dataset \
@@ -153,7 +153,7 @@ prefect deployment build ./compute_embeddings_for_kaggle_dataset.py:flow_compute
 
 Apply a deployment:
 
-```bash
+```shell
 prefect deployment apply compute_embeddings_for_kaggle_dataset-deployment.yaml
 ```
 
@@ -161,7 +161,7 @@ prefect deployment apply compute_embeddings_for_kaggle_dataset-deployment.yaml
 
 Build a deployment:
 
-```bash
+```shell
 cd pipelines/flows/get_metadata_from_arxiv_api
 prefect deployment build ./get_metadata_from_arxiv_api.py:flow_get_metadata_from_arxiv_api \
     --name get_metadata_from_arxiv_api \
@@ -174,7 +174,7 @@ prefect deployment build ./get_metadata_from_arxiv_api.py:flow_get_metadata_from
 
 Apply a deployment:
 
-```bash
+```shell
 prefect deployment apply get_metadata_from_arxiv_api-deployment.yaml
 ```
 
