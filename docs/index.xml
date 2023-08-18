@@ -57,11 +57,10 @@ This is my-dot-files repo.</description>
       <pubDate>Mon, 05 Sep 2022 23:18:20 +0200</pubDate>
       
       <guid>https://www.filippobroggini.com/posts/python-setup/</guid>
-      <description>There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv.
-If you are a macOS user like me, you should use brew to install it.
-brew update brew install pyenv pyenv-virtualenv go Warning
-This is a warning notice. Be warned!
-Then, we append these lines at the end of the ~/.zshrc file:</description>
+      <description>There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv to install and manage multiple Python versions and its companion pyenv-virtualenv to manage virtual environments.
+If you are a macOS user like me, you should use Homebrew to install it.
+brew update brew install pyenv pyenv-virtualenv Tip
+If you have not used Homebrew yet, you can install it with this command:</description>
     </item>
     
     <item>
@@ -72,7 +71,7 @@ Then, we append these lines at the end of the ~/.zshrc file:</description>
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
       <description>Howdy folks!
 Work in progress!
-config.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
+hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
 Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
 hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true.</description>
     </item>

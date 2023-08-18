@@ -15,7 +15,7 @@
 <meta name="author" content="Filippo B">
 <meta name="description" content="Howdy folks!
 Work in progress!
-config.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
+hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
 Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
 hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true.">
 <meta name="keywords" content="blog,developer,personal">
@@ -24,14 +24,14 @@ hugo new posts/my-first-post.md The new draft will be added in the /contents/pos
 <meta name="twitter:title" content="How to build your personal website with Hugo"/>
 <meta name="twitter:description" content="Howdy folks!
 Work in progress!
-config.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
+hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
 Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
 hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true."/>
 
 <meta property="og:title" content="How to build your personal website with Hugo" />
 <meta property="og:description" content="Howdy folks!
 Work in progress!
-config.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
+hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
 Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
 hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true." />
 <meta property="og:type" content="article" />
@@ -173,7 +173,7 @@ hugo new posts/my-first-post.md The new draft will be added in the /contents/pos
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              One-minute read
+              2-minute read
             </span>
           </div>
           
@@ -191,9 +191,9 @@ hugo new posts/my-first-post.md The new draft will be added in the /contents/pos
         
         <p><span class="firstcharacter">H</span>owdy folks!</p>
 <p>Work in progress!</p>
-<h2 id="configtoml">
-  <code>config.toml</code>
-  <a class="heading-link" href="#configtoml">
+<h2 id="hugotoml">
+  <code>hugo.toml</code>
+  <a class="heading-link" href="#hugotoml">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
@@ -213,6 +213,17 @@ you can create a draft by executing</p>
 </span></span></code></pre></div><p>The new draft will be added in the <code>/contents/posts</code> directory.
 The <code>draft</code> value for the new draft will be initially set to <code>true</code>.
 Once the draft is ready and can be published, the <code>draft</code> value will need to be set to <code>false</code>.</p>
+<h2 id="spruce-it-up">
+  Spruce it up
+  <a class="heading-link" href="#spruce-it-up">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I like using info and warning boxes but they are not available out-of-the-box with Hugo.
+For this reason, I installed <a href="https://github.com/martignoni/hugo-notice"  class="external-link" target="_blank" rel="noopener">hugo-notice</a>,
+a Hugo theme component which provides a shortcode to display nice notices.
+It also supports dark mode! It provides four notice types: warning, info, note and tip.</p>
 <h2 id="test-and-view-locally">
   Test and view locally
   <a class="heading-link" href="#test-and-view-locally">
@@ -225,9 +236,9 @@ You can start the web server by executing</p>
 <div class="highlight"><pre tabindex="0" style="color:#f5a97f;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo server
 </span></span></code></pre></div><p>and then you can navigate to <a href="https://localhost:1313"  class="external-link" target="_blank" rel="noopener">https://localhost:1313</a> in a browser
 to view your website.</p>
-<h2 id="resources">
-  Resources
-  <a class="heading-link" href="#resources">
+<h2 id="additional-resources">
+  Additional resources
+  <a class="heading-link" href="#additional-resources">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
