@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  arXiv insanity - Part 0 - Setup all the things! · Filippo B
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Filippo B">
+<meta name="description" content="Setup!
+Introduction Link to heading TBD
+Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
+First, I install a set of packages which are required by pyenv for building Python:
+sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="arXiv insanity - Part 0 - Setup all the things!"/>
+<meta name="twitter:description" content="Setup!
+Introduction Link to heading TBD
+Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
+First, I install a set of packages which are required by pyenv for building Python:
+sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:"/>
+
+<meta property="og:title" content="arXiv insanity - Part 0 - Setup all the things!" />
+<meta property="og:description" content="Setup!
+Introduction Link to heading TBD
+Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
+First, I install a set of packages which are required by pyenv for building Python:
+sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.filippobroggini.com/projects/arxiv-insanity-part0/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2023-01-07T20:19:33+01:00" />
+<meta property="article:modified_time" content="2023-01-07T20:19:33+01:00" />
+
+
+
+
+
+
+<link rel="canonical" href="https://www.filippobroggini.com/projects/arxiv-insanity-part0/">
+
+
+<link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="https://www.filippobroggini.com/css/custom.min.ab0995802119dffb2020e561b9e5972dfcad1de89f3efaa18958ab0e8f2bd3a1.css" integrity="sha256-qwmVgCEZ3/sgIOVhueWXLfytHeifPvqhiVirDo8r06E=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://www.filippobroggini.com/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://www.filippobroggini.com/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.filippobroggini.com/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://www.filippobroggini.com/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.filippobroggini.com/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://www.filippobroggini.com/site.webmanifest">
+<link rel="mask-icon" href="https://www.filippobroggini.com/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://www.filippobroggini.com/">
+      Filippo B
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.filippobroggini.com/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.filippobroggini.com/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.filippobroggini.com/notes/">Notes</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.filippobroggini.com/til/">TIL</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://www.filippobroggini.com/about/">About me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://www.filippobroggini.com/projects/arxiv-insanity-part0/">
+          arXiv insanity - Part 0 - Setup all the things!
+        </a>
+      </h1>
+    </header>
+
+    <p><span class="firstcharacter">S</span>etup!</p>
+<h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>TBD</p>
+<h2 id="set-up-the-compute-engine-instance">
+  Set up the Compute Engine instance
+  <a class="heading-link" href="#set-up-the-compute-engine-instance">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.</p>
+<p>First, I install a set of packages which are required by <code>pyenv</code> for building Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev <span style="color:#8aadf4">\
+</span></span></span><span style="display:flex;"><span><span style="color:#8aadf4"></span>    libbz2-dev libreadline-dev libsqlite3-dev curl <span style="color:#8aadf4">\
+</span></span></span><span style="display:flex;"><span><span style="color:#8aadf4"></span>    libncursesw5-dev xz-utils tk-dev libxml2-dev <span style="color:#8aadf4">\
+</span></span></span><span style="display:flex;"><span><span style="color:#8aadf4"></span>    libxmlsec1-dev libffi-dev liblzma-dev
+</span></span></code></pre></div><p>Install <code>pyenv</code> with the <a href="https://github.com/pyenv/pyenv-installer"  class="external-link" target="_blank" rel="noopener"><code>pyenv</code> installer</a>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>curl https://pyenv.run | bash
+</span></span></code></pre></div><p>Then, add the following lines to <code>~/.bashrc</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#6e738d;font-style:italic"># See https://github.com/pyenv/pyenv/issues/2417#issuecomment-1257017013</span>
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3;font-weight:bold">[[</span> -d <span style="color:#f4dbd6">$HOME</span>/.local/bin <span style="color:#91d7e3;font-weight:bold">&amp;&amp;</span> :<span style="color:#f4dbd6">$PATH</span>: !<span style="color:#91d7e3;font-weight:bold">=</span> *<span style="color:#a6da95">&#34;:</span><span style="color:#f4dbd6">$HOME</span><span style="color:#a6da95">/.local/bin:&#34;</span>* <span style="color:#91d7e3;font-weight:bold">]]</span> <span style="color:#91d7e3;font-weight:bold">&amp;&amp;</span> <span style="color:#91d7e3">export</span> <span style="color:#f4dbd6">PATH</span><span style="color:#91d7e3;font-weight:bold">=</span><span style="color:#a6da95">&#34;</span><span style="color:#f4dbd6">$HOME</span><span style="color:#a6da95">/.local/bin:</span><span style="color:#f4dbd6">$PATH</span><span style="color:#a6da95">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6e738d;font-style:italic"># pyenv</span>
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3">export</span> <span style="color:#f4dbd6">PYENV_ROOT</span><span style="color:#91d7e3;font-weight:bold">=</span><span style="color:#a6da95">&#34;</span><span style="color:#f4dbd6">$HOME</span><span style="color:#a6da95">/.pyenv&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3">command</span> -v pyenv &gt;/dev/null <span style="color:#91d7e3;font-weight:bold">||</span> <span style="color:#91d7e3">export</span> <span style="color:#f4dbd6">PATH</span><span style="color:#91d7e3;font-weight:bold">=</span><span style="color:#a6da95">&#34;</span><span style="color:#f4dbd6">$PYENV_ROOT</span><span style="color:#a6da95">/bin:</span><span style="color:#f4dbd6">$PATH</span><span style="color:#a6da95">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3">eval</span> <span style="color:#a6da95">&#34;</span><span style="color:#c6a0f6">$(</span>pyenv init -<span style="color:#c6a0f6">)</span><span style="color:#a6da95">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3">eval</span> <span style="color:#a6da95">&#34;</span><span style="color:#c6a0f6">$(</span>pyenv virtualenv-init -<span style="color:#c6a0f6">)</span><span style="color:#a6da95">&#34;</span>
+</span></span></code></pre></div><p>Finally, restart your shell for the changes to take effect.</p>
+<p>For this project, I use <code>pyenv</code> to install a recent version of Python 3.11:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>pyenv install 3.11.4
+</span></span><span style="display:flex;"><span>pyenv global 3.11.4
+</span></span></code></pre></div><p>On a small virtual machine, installing a new Python version will take up to one hour.</p>
+<style type="text/css">.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div><div class="notice warning" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#warning-notice"></use></svg></span>Warning</p><p>Potential issues:</p>
+<p><a href="https://github.com/pyenv/pyenv/issues/2417#issuecomment-1257017013"  class="external-link" target="_blank" rel="noopener">https://github.com/pyenv/pyenv/issues/2417#issuecomment-1257017013</a></p></div>
+
+<h2 id="clone-repository">
+  Clone repository
+  <a class="heading-link" href="#clone-repository">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#6e738d;font-style:italic"># git clone git@github.com:filippo82/arxiv-insanity.git</span>
+</span></span><span style="display:flex;"><span>git clone https://github.com/filippo82/arxiv-insanity.git
+</span></span></code></pre></div><div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>Tip</p><p>Make sure you are authorised to clone a repo from the current environment.
+You might need to follow <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"  class="external-link" target="_blank" rel="noopener">these instructions</a>.</p></div>
+
+<h2 id="python-environment">
+  Python environment
+  <a class="heading-link" href="#python-environment">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>TBD</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#91d7e3">cd</span> arxiv-insanity
+</span></span><span style="display:flex;"><span>pyenv virtualenv arxiv
+</span></span><span style="display:flex;"><span>pyenv <span style="color:#91d7e3">local</span> arxiv
+</span></span><span style="display:flex;"><span>pip install -U -r requirements.txt
+</span></span><span style="display:flex;"><span>pip install -U -r requirements-dev.txt
+</span></span><span style="display:flex;"><span>pre-commit install
+</span></span></code></pre></div><div class="notice warning" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#warning-notice"></use></svg></span>Warning</p><p>You might need to add the <code>--no-cache-dir</code> flag when installing <code>torch</code>.</p></div>
+
+<p>ADD BOX</p>
+<p>Add link to blog post with my opinionated Python setup.</p>
+<h2 id="credentials">
+  Credentials
+  <a class="heading-link" href="#credentials">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Google Cloud</li>
+<li>Kaggle</li>
+<li>Prefect Cloud</li>
+</ul>
+<h3 id="google-cloud">
+  Google Cloud
+  <a class="heading-link" href="#google-cloud">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>First install the Google Cloud CLI by following the <a href="https://cloud.google.com/sdk/docs/install#mac"  class="external-link" target="_blank" rel="noopener">official instructions</a>. If already installed, you can update its components to the latest version:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt-get install apt-transport-https ca-certificates gnupg curl sudo
+</span></span><span style="display:flex;"><span><span style="color:#91d7e3">echo</span> <span style="color:#a6da95">&#34;deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main&#34;</span> | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+</span></span><span style="display:flex;"><span>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+</span></span><span style="display:flex;"><span>sudo apt-get update <span style="color:#91d7e3;font-weight:bold">&amp;&amp;</span> sudo apt-get --assume-yes install google-cloud-cli
+</span></span><span style="display:flex;"><span>gcloud components update
+</span></span></code></pre></div><p>Finally, you can authenticate yourself with <code>gcloud</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>gcloud auth login
+</span></span><span style="display:flex;"><span>gcloud projects list
+</span></span><span style="display:flex;"><span>gcloud config <span style="color:#91d7e3">set</span> project algebraic-fin-232107
+</span></span><span style="display:flex;"><span>gcloud auth application-default login
+</span></span></code></pre></div><h3 id="kaggle">
+  Kaggle
+  <a class="heading-link" href="#kaggle">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>To use the Kaggle CLI,
+follow these <a href="https://www.kaggle.com/docs/api#getting-started-installation-&amp;-authentication"  class="external-link" target="_blank" rel="noopener">instructions</a>:</p>
+<ul>
+<li>go to your <a href="https://www.kaggle.com/YOUR_USERNAME/account"  class="external-link" target="_blank" rel="noopener">account</a> on Kaggle;</li>
+<li>generate a new API token;</li>
+<li>move the downloaded <code>kaggle.json</code> file to <code>~/.kaggle/kaggle.json</code>;</li>
+<li>run <code>chmod 600 ~/.kaggle/kaggle.json</code> to ensure that <code>kaggle.json</code> has the right permissions.</li>
+</ul>
+<h3 id="prefect-cloud">
+  Prefect Cloud
+  <a class="heading-link" href="#prefect-cloud">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>TBD</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>prefect cloud login --key xxx_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX --workspace <span style="color:#a6da95">&#34;your_handle/your_workspace&#34;</span>
+</span></span></code></pre></div><p>ADD BOX</p>
+<p>If you have not created a workspace yet, you will be asked to create one
+when logging in for the first time with <code>prefect cloud login</code>.</p>
+<p>In your local environment, where you executed the login command above,
+create a file named <code>basic_flow.py</code> with the following contents:</p>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#8bd5ca">from</span> <span style="color:#f5a97f">prefect</span> <span style="color:#8bd5ca">import</span> flow, get_run_logger
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#8aadf4;font-weight:bold">@flow</span>(name<span style="color:#91d7e3;font-weight:bold">=</span><span style="color:#a6da95">&#34;Testing&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#c6a0f6">def</span> <span style="color:#8aadf4">basic_flow</span>():
+</span></span><span style="display:flex;"><span>    logger <span style="color:#91d7e3;font-weight:bold">=</span> get_run_logger()
+</span></span><span style="display:flex;"><span>    logger<span style="color:#91d7e3;font-weight:bold">.</span>warning(<span style="color:#a6da95">&#34;The fun is about to begin&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#c6a0f6">if</span> <span style="color:#f4dbd6">__name__</span> <span style="color:#91d7e3;font-weight:bold">==</span> <span style="color:#a6da95">&#34;__main__&#34;</span>:
+</span></span><span style="display:flex;"><span>    basic_flow()
+</span></span></code></pre></div><p>Now run <code>python basic_flow.py</code>.
+Go to the dashboard for your workspace in Prefect Cloud.
+You&rsquo;ll see the flow run results in the <code>Flow Runs</code> panel.</p>
+
+  </article>
+</section>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
+      }
+    );"></script>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2023
+     Filippo B 
+    ·
+    Made with ❤️  in Zürich, Switzerland
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="https://www.filippobroggini.com/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

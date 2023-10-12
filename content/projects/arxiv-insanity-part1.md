@@ -21,6 +21,71 @@ TBD
 
 ## Infrastructure
 
+## Google Cloud
+
+### Service Account
+
+We use a new service account for Prefect that can access our GCS bucket.
+
+```shell
+gcloud iam service-accounts create prefect \
+  --description="Authorisation to use with Prefect Cloud and Prefect Agent"
+Then create a key file called service_account.json. We’ll store this in Prefect Cloud later on for authorisation with GCP.
+```
+
+```shell
+gcloud iam service-accounts keys create service_account.json \
+  --iam-account=prefect@PROJECT_ID.iam.gserviceaccount.com
+We need to grant the service account access to the GCS bucket we created.
+```
+
+```shell
+gcloud storage buckets add-iam-policy-binding gs://prefect-deployments \
+  --member=serviceAccount:prefect@PROJECT_ID.iam.gserviceaccount.com \
+  --role=roles/storage.objectAdmin
+```
+
+Note: You’ll need to make sure your gcloud version is updated with gcloud components update because this command is only available on more recent versions.
+
+Additionally, for the service account to be able to create Cloud Run jobs (which we’ll do later), we need some extra roles:
+
+```shell
+gcloud projects add-iam-policy-binding <PROJECT_ID> \
+  --member=serviceAccount:prefect@<PROJECT_ID>.iam.gserviceaccount.com \
+  --role=roles/run.admin
+
+gcloud projects add-iam-policy-binding <PROJECT_ID> \
+  --member=serviceAccount:prefect@<PROJECT_ID>.iam.gserviceaccount.com \
+  --role=roles/iam.serviceAccountUser
+```
+
+### Google Cloud Storage (GCS)
+
+We create a new Google Cloud Storage bucket:
+
+```shell
+gcloud storage buckets create gs://prefect-deployments --location=XX
+```
+
+### Google Cloud VM for Agent
+
+First, create the VM with the following command:
+
+```shell
+gcloud compute instances create prefect-agent \
+    --image=ubuntu-2004-focal-v20230104 \
+    --image-project=ubuntu-os-cloud \
+    --machine-type=e2-micro \
+    --zone=europe-west2-b \
+    --service-account=prefect@PROJECT_ID.iam.gserviceaccount.com
+```
+
+Then, SSH into the VM using:
+
+```shell
+gcloud compute ssh prefect-agent
+```
+
 ### Docker images
 
 First, we need to create a repository in Google Cloud Artifact Registry.
@@ -53,7 +118,7 @@ Resources:
 
 Enable the Cloud Build, Artifact Registry, and Secret Manager APIs using `gcloud`.
 
-Grante the required IAM permissions:
+Grant the required IAM permissions:
 
 ```shell
 PN=$(gcloud projects describe ${PROJECT_ID} --format="value(projectNumber)")

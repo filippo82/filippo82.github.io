@@ -14,7 +14,7 @@ Make sure to install [Hugo](https://gohugo.io) in your system:
 brew install hugo
 ```
 
-Then clone this repository and build the website:
+Then, clone this repository and build the website:
 
 ```shell
 git clone --recurse-submodules https://github.com/filippo82/filippo82.github.io.git
@@ -29,4 +29,3 @@ The website will be running at [localhost:1313](http://localhost:1313).
 If you find errors (typos, spelling, grammar, ...),
 mistakes in content, or have suggestions to improve it,
 then open an [issue](https://github.com/filippo82/filippo82.github.io/issues).
-

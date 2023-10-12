@@ -44,6 +44,15 @@
     <loc>https://www.filippobroggini.com/til/</loc>
     <lastmod>2023-01-29T16:02:10+01:00</lastmod>
   </url><url>
+    <loc>https://www.filippobroggini.com/series/app/</loc>
+    <lastmod>2023-01-07T20:19:33+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</loc>
+    <lastmod>2023-01-07T20:19:33+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/projects/</loc>
+    <lastmod>2023-01-07T20:19:33+01:00</lastmod>
+  </url><url>
     <loc>https://www.filippobroggini.com/tags/development/</loc>
     <lastmod>2022-10-02T13:18:20+02:00</lastmod>
   </url><url>
@@ -72,9 +81,6 @@
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/projects/fastapi_hello_world/</loc>
-    <lastmod>2020-02-10T20:19:33+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/projects/</loc>
     <lastmod>2020-02-10T20:19:33+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/about/</loc>

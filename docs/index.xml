@@ -26,6 +26,19 @@
     </item>
     
     <item>
+      <title>arXiv insanity - Part 0 - Setup all the things!</title>
+      <link>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</link>
+      <pubDate>Sat, 07 Jan 2023 20:19:33 +0100</pubDate>
+      
+      <guid>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</guid>
+      <description>Setup!
+Introduction Link to heading TBD
+Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
+First, I install a set of packages which are required by pyenv for building Python:
+sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:</description>
+    </item>
+    
+    <item>
       <title>How I set up my macOS</title>
       <link>https://www.filippobroggini.com/posts/macos-setup/</link>
       <pubDate>Sun, 02 Oct 2022 13:18:20 +0200</pubDate>
