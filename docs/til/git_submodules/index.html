@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  TIL - Create custom avatars for Brave browser · Filippo B
+  TIL - Git submodules · Filippo B
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +13,26 @@
 
 
 <meta name="author" content="Filippo B">
-<meta name="description" content=" Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. ">
+<meta name="description" content="Quick recipes for working with git submodules">
 <meta name="keywords" content="blog,developer,personal">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="TIL - Create custom avatars for Brave browser"/>
-<meta name="twitter:description" content=" Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. "/>
+<meta name="twitter:title" content="TIL - Git submodules"/>
+<meta name="twitter:description" content="Quick recipes for working with git submodules"/>
 
-<meta property="og:title" content="TIL - Create custom avatars for Brave browser" />
-<meta property="og:description" content=" Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. " />
+<meta property="og:title" content="TIL - Git submodules" />
+<meta property="og:description" content="Quick recipes for working with git submodules" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/til/brave_browser_custom_avatars/" /><meta property="article:section" content="til" />
-<meta property="article:published_time" content="2023-01-29T16:02:10+01:00" />
-<meta property="article:modified_time" content="2023-01-29T16:02:10+01:00" />
-<meta property="og:see_also" content="https://www.filippobroggini.com/til/git_submodules/" />
+<meta property="og:url" content="https://www.filippobroggini.com/til/git_submodules/" /><meta property="article:section" content="til" />
+<meta property="article:published_time" content="2023-11-04T13:04:34+01:00" />
+<meta property="article:modified_time" content="2023-11-04T13:04:34+01:00" />
+<meta property="og:see_also" content="https://www.filippobroggini.com/til/brave_browser_custom_avatars/" />
 
 
 
 
 
-<link rel="canonical" href="https://www.filippobroggini.com/til/brave_browser_custom_avatars/">
+<link rel="canonical" href="https://www.filippobroggini.com/til/git_submodules/">
 
 
 <link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
@@ -147,20 +147,29 @@
   <article>
     <header>
       <h1 class="title">
-        <a class="title-link" href="https://www.filippobroggini.com/til/brave_browser_custom_avatars/">
-          TIL - Create custom avatars for Brave browser
+        <a class="title-link" href="https://www.filippobroggini.com/til/git_submodules/">
+          TIL - Git submodules
         </a>
       </h1>
     </header>
 
-    <ul>
-<li>Create the <code>Avatars</code> directory inside <code>/Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser</code>.</li>
-<li>Add a new PNG image inside the <code>Avatars</code> directory. The recommended size is 190 x 190.</li>
-<li>The new image must be named as one of the images found <a href="https://github.com/brave/brave-core/tree/master/app/theme/default_100_percent/common/avatars"  class="external-link" target="_blank" rel="noopener">here</a>.</li>
-<li>This will override the specific avatar in the profile configuration.</li>
-<li>The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner.</li>
-</ul>
-
+    <h2 id="list-existing-submodules">
+  List existing submodules
+  <a class="heading-link" href="#list-existing-submodules">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git submodule status
+</span></span></code></pre></div><h2 id="add-a-submodule">
+  Add a submodule
+  <a class="heading-link" href="#add-a-submodule">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>git submodule add --depth <span style="color:#f5a97f">1</span> git@github.com:filippo82/sample-apps.git
+</span></span></code></pre></div>
   </article>
 </section>
 

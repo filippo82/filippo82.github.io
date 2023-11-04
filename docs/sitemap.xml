@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.filippobroggini.com/categories/</loc>
-    <lastmod>2023-07-02T14:33:52+02:00</lastmod>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/</loc>
-    <lastmod>2023-07-02T14:33:52+02:00</lastmod>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/tags/til/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/series/til/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/categories/til/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/til/git_submodules/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
+  </url><url>
+    <loc>https://www.filippobroggini.com/til/</loc>
+    <lastmod>2023-11-04T13:04:34+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/notes/from-zero-to-semantic-search-embedding-model/</loc>
     <lastmod>2023-07-02T14:33:52+02:00</lastmod>
@@ -23,25 +44,7 @@
     <loc>https://www.filippobroggini.com/notes/</loc>
     <lastmod>2023-07-02T14:33:52+02:00</lastmod>
   </url><url>
-    <loc>https://www.filippobroggini.com/series/</loc>
-    <lastmod>2023-07-02T14:33:52+02:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/tags/</loc>
-    <lastmod>2023-07-02T14:33:52+02:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/tags/til/</loc>
-    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/series/til/</loc>
-    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/categories/til/</loc>
-    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
-  </url><url>
     <loc>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</loc>
-    <lastmod>2023-01-29T16:02:10+01:00</lastmod>
-  </url><url>
-    <loc>https://www.filippobroggini.com/til/</loc>
     <lastmod>2023-01-29T16:02:10+01:00</lastmod>
   </url><url>
     <loc>https://www.filippobroggini.com/series/app/</loc>
