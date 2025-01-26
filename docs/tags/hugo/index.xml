@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Filippo B</title>
+    <title>Hugo on Filippo B</title>
     <link>https://www.filippobroggini.com/tags/hugo/</link>
-    <description>Recent content in hugo on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hugo on Filippo B</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Jan 2021 22:09:40 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2021 22:09:40 +0100</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to build your personal website with Hugo</title>
       <link>https://www.filippobroggini.com/posts/hugo101/</link>
       <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
-      <description>Howdy folks!
-Work in progress!
-hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
-Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
-hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true.</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&lt;/p&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugotoml&#34;&gt;&#xA;  &lt;code&gt;hugo.toml&lt;/code&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#hugotoml&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Available &lt;code&gt;pygmentsStyle&lt;/code&gt; styles: &lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xyproto.github.io/splash/docs/all.html&lt;/a&gt;&#xA;See this comment from the author of &lt;code&gt;hugo-code&lt;/code&gt; theme: &lt;a href=&#34;https://github.com/luizdepra/hugo-coder/issues/603&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/luizdepra/hugo-coder/issues/603&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-draft-for-a-new-article&#34;&gt;&#xA;  Create a draft for a new article&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#create-a-draft-for-a-new-article&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;When you feel creative and want to start writing a new blog post,&#xA;you can create a draft by executing&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The new draft will be added in the &lt;code&gt;/contents/posts&lt;/code&gt; directory.&#xA;The &lt;code&gt;draft&lt;/code&gt; value for the new draft will be initially set to &lt;code&gt;true&lt;/code&gt;.&#xA;Once the draft is ready and can be published, the &lt;code&gt;draft&lt;/code&gt; value will need to be set to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First post on new website!</title>
       <link>https://www.filippobroggini.com/posts/first_post/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/first_post/</guid>
-      <description>Howdy folks! I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&#xA;I&amp;rsquo;ve finally had time to work on my personal website.&#xA;I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned 🤩&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

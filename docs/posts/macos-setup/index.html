@@ -15,37 +15,61 @@
 <meta name="author" content="Filippo B">
 <meta name="description" content="Howdy folks!
 Work in progress!
-Dotfiles Link to heading Work in progress!
-Link to heading Let&rsquo;s brew! Link to heading Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
+
+  Dotfiles
+  
+    
+    Link to heading
+  
+
+Work in progress!
+
+  
+  
+    
+    Link to heading
+  
+
+
+  Let&rsquo;s brew!
+  
+    
+    Link to heading
+  
+
+Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
 First let&rsquo;s install it with this handy command:
-/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading From its website:">
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34;
+Then you can verify that the brew command line tool is properly installed with">
 <meta name="keywords" content="blog,developer,personal">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How I set up my macOS"/>
-<meta name="twitter:description" content="Howdy folks!
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How I set up my macOS">
+  <meta name="twitter:description" content="Howdy folks!
 Work in progress!
 Dotfiles Link to heading Work in progress!
-Link to heading Let&rsquo;s brew! Link to heading Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
-First let&rsquo;s install it with this handy command:
-/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading From its website:"/>
+Link to heading Let’s brew! Link to heading Homebrew is the “the Missing Package Manager for macOS”.
+First let’s install it with this handy command:
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with">
 
-<meta property="og:title" content="How I set up my macOS" />
-<meta property="og:description" content="Howdy folks!
+<meta property="og:url" content="https://www.filippobroggini.com/posts/macos-setup/">
+  <meta property="og:site_name" content="Filippo B">
+  <meta property="og:title" content="How I set up my macOS">
+  <meta property="og:description" content="Howdy folks!
 Work in progress!
 Dotfiles Link to heading Work in progress!
-Link to heading Let&rsquo;s brew! Link to heading Homebrew is the &ldquo;the Missing Package Manager for macOS&rdquo;.
-First let&rsquo;s install it with this handy command:
-/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading From its website:" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.filippobroggini.com/posts/macos-setup/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-10-02T13:18:20+02:00" />
-<meta property="article:modified_time" content="2022-10-02T13:18:20+02:00" />
-<meta property="og:see_also" content="https://www.filippobroggini.com/posts/dotfiles-setup/" /><meta property="og:see_also" content="https://www.filippobroggini.com/posts/python-setup/" />
-
+Link to heading Let’s brew! Link to heading Homebrew is the “the Missing Package Manager for macOS”.
+First let’s install it with this handy command:
+/bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; Then you can verify that the brew command line tool is properly installed with">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-10-02T13:18:20+02:00">
+    <meta property="article:modified_time" content="2022-10-02T13:18:20+02:00">
+    <meta property="article:tag" content="Development">
+      <meta property="og:see_also" content="https://www.filippobroggini.com/posts/dotfiles-setup/">
+      <meta property="og:see_also" content="https://www.filippobroggini.com/posts/python-setup/">
 
 
 
@@ -53,12 +77,14 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
 <link rel="canonical" href="https://www.filippobroggini.com/posts/macos-setup/">
 
 
-<link rel="preload" href="https://www.filippobroggini.com/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.filippobroggini.com/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.filippobroggini.com/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.filippobroggini.com/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
 
   
   
-  <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+  <link rel="stylesheet" href="https://www.filippobroggini.com/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -112,7 +138,7 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
   
 <div class="float-container">
     <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
     </a>
 </div>
 
@@ -120,35 +146,37 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
   <main class="wrapper">
     <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="https://www.filippobroggini.com/">
       Filippo B
     </a>
     
+    
       <input type="checkbox" id="menu-toggle" />
       <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
       </label>
       <ul class="navigation-list">
         
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.filippobroggini.com/posts/">Blog</a>
+              <a class="navigation-link " href="https://www.filippobroggini.com/posts/">Blog</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.filippobroggini.com/projects/">Projects</a>
+              <a class="navigation-link " href="https://www.filippobroggini.com/projects/">Projects</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.filippobroggini.com/notes/">Notes</a>
+              <a class="navigation-link " href="https://www.filippobroggini.com/notes/">Notes</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.filippobroggini.com/til/">TIL</a>
+              <a class="navigation-link " href="https://www.filippobroggini.com/til/">TIL</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link" href="https://www.filippobroggini.com/about/">About me</a>
+              <a class="navigation-link " href="https://www.filippobroggini.com/about/">About me</a>
             </li>
           
         
@@ -174,22 +202,22 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
               <time datetime="2022-10-02T13:18:20&#43;02:00">
                 October 2, 2022
               </time>
             </span>
             <span class="reading-time">
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               One-minute read
             </span>
           </div>
           
           
           <div class="tags">
-  <i class="fa fa-tag" aria-hidden="true"></i>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="https://www.filippobroggini.com/tags/development/">development</a>
+      <a href="https://www.filippobroggini.com/tags/development/">Development</a>
     </span></div>
 
         </div>
@@ -202,7 +230,7 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
 <h2 id="dotfiles">
   Dotfiles
   <a class="heading-link" href="#dotfiles">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
@@ -210,14 +238,14 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
 <h2 id="heading">
   
   <a class="heading-link" href="#heading">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
 <h2 id="lets-brew">
   Let&rsquo;s <code>brew</code>!
   <a class="heading-link" href="#lets-brew">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
@@ -230,7 +258,7 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
 </span></span></code></pre></div><h2 id="oh-my-zsh">
   Oh My ZSH!
   <a class="heading-link" href="#oh-my-zsh">
-    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
@@ -255,7 +283,7 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
       <h3 id="see-also-in-development">
         See also in Development
         <a class="heading-link" href="#see-also-in-development">
-          <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+          <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
           <span class="sr-only">Link to heading</span>
         </a>
       </h3>
@@ -312,6 +340,9 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
         
         
         
+
+        
+        
       </footer>
     </article>
 
@@ -342,7 +373,7 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
     
       2019 -
     
-    2023
+    2025
      Filippo B 
     ·
     Made with ❤️  in Zürich, Switzerland
@@ -365,6 +396,10 @@ brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading F
 
   
 
+
+  
+
+  
 
   
 

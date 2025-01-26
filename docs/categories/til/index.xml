@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>til on Filippo B</title>
+    <title>Til on Filippo B</title>
     <link>https://www.filippobroggini.com/categories/til/</link>
-    <description>Recent content in til on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Til on Filippo B</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/categories/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL - Git submodules</title>
       <link>https://www.filippobroggini.com/til/git_submodules/</link>
       <pubDate>Sat, 04 Nov 2023 13:04:34 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/til/git_submodules/</guid>
-      <description> List existing submodules Link to heading git submodule status Add a submodule Link to heading git submodule add --depth 1 git@github.com:filippo82/sample-apps.git </description>
+      <description>&lt;h2 id=&#34;list-existing-submodules&#34;&gt;&#xA;  List existing submodules&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#list-existing-submodules&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule status&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;add-a-submodule&#34;&gt;&#xA;  Add a submodule&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#add-a-submodule&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add --depth &lt;span style=&#34;color:#f5a97f&#34;&gt;1&lt;/span&gt; git@github.com:filippo82/sample-apps.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>TIL - Create custom avatars for Brave browser</title>
       <link>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</link>
       <pubDate>Sun, 29 Jan 2023 16:02:10 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</guid>
-      <description> Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Create the &lt;code&gt;Avatars&lt;/code&gt; directory inside &lt;code&gt;/Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Add a new PNG image inside the &lt;code&gt;Avatars&lt;/code&gt; directory. The recommended size is 190 x 190.&lt;/li&gt;&#xA;&lt;li&gt;The new image must be named as one of the images found &lt;a href=&#34;https://github.com/brave/brave-core/tree/master/app/theme/default_100_percent/common/avatars&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;This will override the specific avatar in the profile configuration.&lt;/li&gt;&#xA;&lt;li&gt;The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

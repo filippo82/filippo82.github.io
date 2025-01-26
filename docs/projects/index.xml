@@ -4,30 +4,23 @@
     <title>Projects on Filippo B</title>
     <link>https://www.filippobroggini.com/projects/</link>
     <description>Recent content in Projects on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Jan 2023 20:19:33 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jan 2023 20:19:33 +0100</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>arXiv insanity - Part 0 - Setup all the things!</title>
       <link>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</link>
       <pubDate>Sat, 07 Jan 2023 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</guid>
-      <description>Setup!
-Introduction Link to heading TBD
-Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
-First, I install a set of packages which are required by pyenv for building Python:
-sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;S&lt;/span&gt;etup!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;TBD&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-the-compute-engine-instance&#34;&gt;&#xA;  Set up the Compute Engine instance&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#set-up-the-compute-engine-instance&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.&lt;/p&gt;&#xA;&lt;p&gt;First, I install a set of packages which are required by &lt;code&gt;pyenv&lt;/code&gt; for building Python:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libbz2-dev libreadline-dev libsqlite3-dev curl &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libncursesw5-dev xz-utils tk-dev libxml2-dev &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libxmlsec1-dev libffi-dev liblzma-dev&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install &lt;code&gt;pyenv&lt;/code&gt; with the &lt;a href=&#34;https://github.com/pyenv/pyenv-installer&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pyenv&lt;/code&gt; installer&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>FastAPI Hello World</title>
       <link>https://www.filippobroggini.com/projects/fastapi_hello_world/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/projects/fastapi_hello_world/</guid>
-      <description>Hello FastAPI!</description>
+      <description>&lt;p&gt;Hello &lt;a href=&#34;https://fastapi.tiangolo.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FastAPI&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

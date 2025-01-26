@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on Filippo B</title>
+    <title>Notes on Filippo B</title>
     <link>https://www.filippobroggini.com/series/notes/</link>
-    <description>Recent content in notes on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Notes on Filippo B</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jul 2023 14:33:52 +0200</lastBuildDate><atom:link href="https://www.filippobroggini.com/series/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 14:33:52 +0200</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/series/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From zero to semantic search embedding model</title>
       <link>https://www.filippobroggini.com/notes/from-zero-to-semantic-search-embedding-model/</link>
       <pubDate>Sun, 02 Jul 2023 14:33:52 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/notes/from-zero-to-semantic-search-embedding-model/</guid>
-      <description>These are my notes for the blog post From zero to semantic search embedding model written by Metarank&amp;rsquo;s maintainer Roman Grebennikov.</description>
+      <description>&lt;p&gt;These are my notes for the blog post&#xA;&lt;a href=&#34;https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;From zero to semantic search embedding model&lt;/a&gt;&#xA;written by&#xA;&lt;a href=&#34;https://www.metarank.ai/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metarank&lt;/a&gt;&amp;rsquo;s maintainer Roman Grebennikov.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

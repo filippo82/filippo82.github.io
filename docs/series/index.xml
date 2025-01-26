@@ -4,53 +4,44 @@
     <title>Series on Filippo B</title>
     <link>https://www.filippobroggini.com/series/</link>
     <description>Recent content in Series on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>til</title>
+      <title>Til</title>
       <link>https://www.filippobroggini.com/series/til/</link>
       <pubDate>Sat, 04 Nov 2023 13:04:34 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/series/til/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>notes</title>
+      <title>Notes</title>
       <link>https://www.filippobroggini.com/series/notes/</link>
       <pubDate>Sun, 02 Jul 2023 14:33:52 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/series/notes/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>App</title>
       <link>https://www.filippobroggini.com/series/app/</link>
       <pubDate>Sat, 07 Jan 2023 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/series/app/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Development</title>
       <link>https://www.filippobroggini.com/series/development/</link>
       <pubDate>Sun, 02 Oct 2022 13:18:20 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/series/development/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FastAPI</title>
       <link>https://www.filippobroggini.com/series/fastapi/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/series/fastapi/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

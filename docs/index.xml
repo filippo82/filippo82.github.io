@@ -4,127 +4,93 @@
     <title>Filippo B</title>
     <link>https://www.filippobroggini.com/</link>
     <description>Recent content on Filippo B</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate><atom:link href="https://www.filippobroggini.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Nov 2023 13:04:34 +0100</lastBuildDate>
+    <atom:link href="https://www.filippobroggini.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TIL - Git submodules</title>
       <link>https://www.filippobroggini.com/til/git_submodules/</link>
       <pubDate>Sat, 04 Nov 2023 13:04:34 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/til/git_submodules/</guid>
-      <description> List existing submodules Link to heading git submodule status Add a submodule Link to heading git submodule add --depth 1 git@github.com:filippo82/sample-apps.git </description>
+      <description>&lt;h2 id=&#34;list-existing-submodules&#34;&gt;&#xA;  List existing submodules&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#list-existing-submodules&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule status&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;add-a-submodule&#34;&gt;&#xA;  Add a submodule&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#add-a-submodule&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add --depth &lt;span style=&#34;color:#f5a97f&#34;&gt;1&lt;/span&gt; git@github.com:filippo82/sample-apps.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>From zero to semantic search embedding model</title>
       <link>https://www.filippobroggini.com/notes/from-zero-to-semantic-search-embedding-model/</link>
       <pubDate>Sun, 02 Jul 2023 14:33:52 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/notes/from-zero-to-semantic-search-embedding-model/</guid>
-      <description>These are my notes for the blog post From zero to semantic search embedding model written by Metarank&amp;rsquo;s maintainer Roman Grebennikov.</description>
+      <description>&lt;p&gt;These are my notes for the blog post&#xA;&lt;a href=&#34;https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;From zero to semantic search embedding model&lt;/a&gt;&#xA;written by&#xA;&lt;a href=&#34;https://www.metarank.ai/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metarank&lt;/a&gt;&amp;rsquo;s maintainer Roman Grebennikov.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TIL - Create custom avatars for Brave browser</title>
       <link>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</link>
       <pubDate>Sun, 29 Jan 2023 16:02:10 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/til/brave_browser_custom_avatars/</guid>
-      <description> Create the Avatars directory inside /Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser. Add a new PNG image inside the Avatars directory. The recommended size is 190 x 190. The new image must be named as one of the images found here. This will override the specific avatar in the profile configuration. The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner. </description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Create the &lt;code&gt;Avatars&lt;/code&gt; directory inside &lt;code&gt;/Users/filippo/Library/Application Support/BraveSoftware/Brave-Browser&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Add a new PNG image inside the &lt;code&gt;Avatars&lt;/code&gt; directory. The recommended size is 190 x 190.&lt;/li&gt;&#xA;&lt;li&gt;The new image must be named as one of the images found &lt;a href=&#34;https://github.com/brave/brave-core/tree/master/app/theme/default_100_percent/common/avatars&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;This will override the specific avatar in the profile configuration.&lt;/li&gt;&#xA;&lt;li&gt;The image of the avatar will not change but, after selecting it, you will see the custom image in the top right corner.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>arXiv insanity - Part 0 - Setup all the things!</title>
       <link>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</link>
       <pubDate>Sat, 07 Jan 2023 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/projects/arxiv-insanity-part0/</guid>
-      <description>Setup!
-Introduction Link to heading TBD
-Set up the Compute Engine instance Link to heading When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.
-First, I install a set of packages which are required by pyenv for building Python:
-sudo apt update sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev \ libbz2-dev libreadline-dev libsqlite3-dev curl \ libncursesw5-dev xz-utils tk-dev libxml2-dev \ libxmlsec1-dev libffi-dev liblzma-dev Install pyenv with the pyenv installer:</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;S&lt;/span&gt;etup!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;TBD&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-the-compute-engine-instance&#34;&gt;&#xA;  Set up the Compute Engine instance&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#set-up-the-compute-engine-instance&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;When setting up a virtual machine, I choose Ubuntu 22.04.2 LTS as the operative system.&lt;/p&gt;&#xA;&lt;p&gt;First, I install a set of packages which are required by &lt;code&gt;pyenv&lt;/code&gt; for building Python:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt --assume-yes install build-essential libssl-dev zlib1g-dev &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libbz2-dev libreadline-dev libsqlite3-dev curl &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libncursesw5-dev xz-utils tk-dev libxml2-dev &lt;span style=&#34;color:#8aadf4&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8aadf4&#34;&gt;&lt;/span&gt;    libxmlsec1-dev libffi-dev liblzma-dev&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Install &lt;code&gt;pyenv&lt;/code&gt; with the &lt;a href=&#34;https://github.com/pyenv/pyenv-installer&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;pyenv&lt;/code&gt; installer&lt;/a&gt;:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I set up my macOS</title>
       <link>https://www.filippobroggini.com/posts/macos-setup/</link>
       <pubDate>Sun, 02 Oct 2022 13:18:20 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/macos-setup/</guid>
-      <description>Howdy folks!
-Work in progress!
-Dotfiles Link to heading Work in progress!
-Link to heading Let&amp;rsquo;s brew! Link to heading Homebrew is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.
-First let&amp;rsquo;s install it with this handy command:
-/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Then you can verify that the brew command line tool is properly installed with
-brew --version brew install git jq neovim pyenv zsh Oh My ZSH! Link to heading From its website:</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&lt;/p&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;h2 id=&#34;dotfiles&#34;&gt;&#xA;  Dotfiles&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#dotfiles&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;lets-brew&#34;&gt;&#xA;  Let&amp;rsquo;s &lt;code&gt;brew&lt;/code&gt;!&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#lets-brew&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; is the &amp;ldquo;the Missing Package Manager for macOS&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;First let&amp;rsquo;s install it with this handy command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/bash -c &lt;span style=&#34;color:#a6da95&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#c6a0f6&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style=&#34;color:#c6a0f6&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#a6da95&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you can verify that the &lt;code&gt;brew&lt;/code&gt; command line tool is properly installed with&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dotfiles: they are hidden but we love them!</title>
       <link>https://www.filippobroggini.com/posts/dotfiles-setup/</link>
       <pubDate>Sat, 01 Oct 2022 23:18:20 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/dotfiles-setup/</guid>
-      <description>Howdy folks!
-Work in progress!
-This is my-dot-files repo.</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&lt;/p&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;p&gt;This is &lt;a href=&#34;https://github.com/filippo82/my-dot-files&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my-dot-files&lt;/a&gt; repo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to set up python on your computer</title>
       <link>https://www.filippobroggini.com/posts/python-setup/</link>
       <pubDate>Mon, 05 Sep 2022 23:18:20 +0200</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/python-setup/</guid>
-      <description>There are many ways to install Python. You can ask three people about this topic and you will get five different opinions. My opinionated recommendation is to use pyenv to install and manage multiple Python versions and its companion pyenv-virtualenv to manage virtual environments.
-If you are a macOS user like me, you should use Homebrew to install it.
-brew update brew install pyenv pyenv-virtualenv Tip
-If you have not used Homebrew yet, you can install it with this command:</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;T&lt;/span&gt;here are many ways to install Python.&#xA;You can ask three people about this topic and you will get five different opinions.&#xA;My opinionated recommendation is to use &lt;a href=&#34;https://github.com/pyenv/pyenv&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pyenv&lt;/a&gt;&#xA;to install and manage multiple Python versions&#xA;and its companion &lt;a href=&#34;https://github.com/pyenv/pyenv-virtualenv&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pyenv-virtualenv&lt;/a&gt;&#xA;to manage virtual environments.&lt;/p&gt;&#xA;&lt;p&gt;If you are a macOS user like me,&#xA;you should use &lt;a href=&#34;https://brew.sh/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; to install it.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install pyenv pyenv-virtualenv&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;&#xA;&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice tip&#34; &gt;&#xA;&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#tip-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Tip&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>`tmux` 101</title>
+      <link>https://www.filippobroggini.com/posts/tmux101/</link>
+      <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
+      <guid>https://www.filippobroggini.com/posts/tmux101/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&lt;/p&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;p&gt;Create a new session:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tmux new -s blueprint&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;List sessions:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tmux list-sessions&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Reattach to a specific session:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tmux attach-session -t blueprint&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;additional-resources&#34;&gt;&#xA;  Additional resources&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#additional-resources&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ocf.berkeley.edu/~ckuehl/tmux/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tmux - a very simple beginner&amp;rsquo;s guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.redhat.com/en/blog/introduction-tmux-linux&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A beginner&amp;rsquo;s guide to tmux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>How to build your personal website with Hugo</title>
       <link>https://www.filippobroggini.com/posts/hugo101/</link>
       <pubDate>Mon, 25 Jan 2021 22:09:40 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/hugo101/</guid>
-      <description>Howdy folks!
-Work in progress!
-hugo.toml Link to heading Available pygmentsStyle styles: https://xyproto.github.io/splash/docs/all.html See this comment from the author of hugo-code theme: https://github.com/luizdepra/hugo-coder/issues/603
-Create a draft for a new article Link to heading When you feel creative and want to start writing a new blog post, you can create a draft by executing
-hugo new posts/my-first-post.md The new draft will be added in the /contents/posts directory. The draft value for the new draft will be initially set to true.</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&lt;/p&gt;&#xA;&lt;p&gt;Work in progress!&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugotoml&#34;&gt;&#xA;  &lt;code&gt;hugo.toml&lt;/code&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#hugotoml&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Available &lt;code&gt;pygmentsStyle&lt;/code&gt; styles: &lt;a href=&#34;https://xyproto.github.io/splash/docs/all.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xyproto.github.io/splash/docs/all.html&lt;/a&gt;&#xA;See this comment from the author of &lt;code&gt;hugo-code&lt;/code&gt; theme: &lt;a href=&#34;https://github.com/luizdepra/hugo-coder/issues/603&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/luizdepra/hugo-coder/issues/603&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-draft-for-a-new-article&#34;&gt;&#xA;  Create a draft for a new article&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#create-a-draft-for-a-new-article&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;When you feel creative and want to start writing a new blog post,&#xA;you can create a draft by executing&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#cad3f5;background-color:#24273a;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The new draft will be added in the &lt;code&gt;/contents/posts&lt;/code&gt; directory.&#xA;The &lt;code&gt;draft&lt;/code&gt; value for the new draft will be initially set to &lt;code&gt;true&lt;/code&gt;.&#xA;Once the draft is ready and can be published, the &lt;code&gt;draft&lt;/code&gt; value will need to be set to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>FastAPI Hello World</title>
       <link>https://www.filippobroggini.com/projects/fastapi_hello_world/</link>
       <pubDate>Mon, 10 Feb 2020 20:19:33 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/projects/fastapi_hello_world/</guid>
-      <description>Hello FastAPI!</description>
+      <description>&lt;p&gt;Hello &lt;a href=&#34;https://fastapi.tiangolo.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FastAPI&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About me</title>
       <link>https://www.filippobroggini.com/about/</link>
       <pubDate>Thu, 06 Feb 2020 01:09:59 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/about/</guid>
-      <description>Summary Link to heading 👋 I am Filippo. I am a senior solutions engineer (and jack of all trades) at Squirro. Previously, I was a researcher in the Exploration and Environmental Geophysics group at ETH Zürich. I have 10 years of experience in computational and theoretical Geophysics. I am passionate about data science, education, and teaching. I co-supervised PhD students and MSc students, and taught a BSc class on geophysical methods.</description>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;&#xA;  Summary&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#summary&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;👋 I am Filippo. I am a senior solutions engineer (and jack of all trades) at &lt;a href=&#34;https://squirro.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Squirro&lt;/a&gt;. Previously, I was a researcher in the &lt;a href=&#34;https://eeg.ethz.ch/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exploration and Environmental Geophysics group&lt;/a&gt; at ETH Zürich. I have 10 years of experience in computational and theoretical Geophysics. I am passionate about data science, education, and teaching. I co-supervised PhD students and MSc students, and taught a BSc class on geophysical methods. In my spare time (what is left after spending time with my lovely family), I read, cook, build a Raspberry Pi cluster, do sports, and update my personal website.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First post on new website!</title>
       <link>https://www.filippobroggini.com/posts/first_post/</link>
       <pubDate>Wed, 05 Feb 2020 23:17:23 +0100</pubDate>
-      
       <guid>https://www.filippobroggini.com/posts/first_post/</guid>
-      <description>Howdy folks! I&amp;rsquo;ve finally had time to work on my personal website. I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.
-Stay tuned 🤩</description>
+      <description>&lt;p&gt;&lt;span class=&#34;firstcharacter&#34;&gt;H&lt;/span&gt;owdy folks!&#xA;I&amp;rsquo;ve finally had time to work on my personal website.&#xA;I&amp;rsquo;ll follow up soon with a post documenting my journey with Hugo.&lt;/p&gt;&#xA;&lt;p&gt;Stay tuned 🤩&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
