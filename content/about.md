@@ -10,8 +10,8 @@ draft = false
 
 You can find out more about me on my [curriculum vitae]({{< static "/cv/Resume_Filippo_Broggini.pdf" >}}).
 
-Currently, I am trying to learn more about:
+Currently, my main interests are:
 
-* GenAI/LLMs/NLP theory, techniques, and tools
-* Search theory, techniques, and tools
+* All things GenAI and its applications: Agentic AI, LLM/VLM training and inference, ...
+* Information retrieval theory, techniques, and tools
 * and much more 😅
