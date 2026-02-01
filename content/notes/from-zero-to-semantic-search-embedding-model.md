@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 date = 2023-07-02T14:33:52+02:00
 updated = 2023-07-02T14:33:52+02:00
 title = "From zero to semantic search embedding model"

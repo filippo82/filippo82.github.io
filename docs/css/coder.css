@@ -10425,7 +10425,7 @@ body {
     body {
       font-size: 1.6em;
       line-height: 1.6em; } }
-iframe[src*=disqus] {
+iframe[src*="disqus"] {
   color-scheme: light; }
 
 a {
@@ -10437,12 +10437,7 @@ a {
     text-decoration: underline; }
 
 p {
-  margin: 2rem 0 2rem 0;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  word-wrap: break-word; }
+  margin: 2rem 0 2rem 0; }
   @media only screen and (max-width: 768px) {
     p {
       margin: 1.5rem 0 1.5rem 0; } }
@@ -10570,6 +10565,9 @@ blockquote {
   font-weight: 400;
   font-style: italic; }
 
+* {
+  -webkit-tap-highlight-color: transparent; }
+
 th,
 td {
   padding: 1.6rem; }
@@ -10665,7 +10663,8 @@ figure {
   .content article a:where(.external-link):not(:has(img)):after {
     content: "\f08e";
     padding-left: 0.5em;
-    font-size: 0.75em; }
+    font-size: 0.75em;
+    display: inline; }
   .content article details summary {
     cursor: pointer; }
   .content article footer {
@@ -10977,8 +10976,7 @@ figure {
     display: inline;
     text-align: center;
     font-weight: 700;
-    padding: 0 5px 0 5px;
-    margin: 0;
+    margin: 0 2px;
     text-align: center;
     width: 2.2rem; }
     .pagination li a {

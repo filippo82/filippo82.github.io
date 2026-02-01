@@ -1,8 +1,9 @@
 # Mac stuff
 .DS_Store
 
-# Filippo stuff
+# My stuff
 docs_old
+.obsidian
 
 # Hugo stuff
 .hugo_build.lock
